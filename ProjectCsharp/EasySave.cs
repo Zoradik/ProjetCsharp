@@ -114,4 +114,122 @@ namespace Projet
                 }
             }
         }
-        
+        public void displayWorks() // a method that will allow to display all our backupwork
+        {
+            var jsonData = File.ReadAllText(Work.filePath); //Read the JSON file
+            var stateList = JsonConvert.DeserializeObject<List<Work>>(jsonData) ?? new List<Work>(); //convert a string into an object for JSON
+
+            var dt = new ConsoleTable("index", "Name", "SourceFilePath", "TargetFilePath", "Type");
+            foreach (var (state, i) in stateList.Select((el, i) => (el, i)))
+            {
+                dt.AddRow(i + 1, state.name, state.repS, state.repC, state.type);
+            }
+
+            dt.Write();
+        }
+        public void ExecuteWork(string inputUtilisateur) // a method that will allow to execute a backupwork created
+        {
+            var jsonData = File.ReadAllText(Work.filePath); //Read the JSON file
+            var workList = JsonConvert.DeserializeObject<List<Work>>(jsonData) ?? new List<Work>(); //convert a string into an object for JSON
+
+            if (workList.Count >= Convert.ToInt32(inputUtilisateur)) //this condition allow to the user to choose the exact row in order to execute the backupwork chosen
+            {
+                int index = Convert.ToInt32(inputUtilisateur) - 1;
+                string sourceDir = workList.ElementAt(index).repS;
+                string backupDir = workList.ElementAt(index).repC;
+                string name = workList.ElementAt(index).name;
+                long filesNum = Directory.GetFiles(sourceDir, "*", SearchOption.AllDirectories).Length;
+
+                //this condition is used to execute the type of backup chosen in the creation 
+                if (workList.ElementAt(Convert.ToInt32(inputUtilisateur) - 1).type == "Differential")
+                {
+                    var jsonDataState2 = File.ReadAllText(Etat.filePath);
+                    var stateList2 = JsonConvert.DeserializeObject<List<Etat>>(jsonDataState2) ?? new List<Etat>();
+
+                    int indexState = 0;
+                    for (int i = 0; i < stateList2.Count; i++)
+                    {
+                        if (stateList2[i].Name == workList[index].name)
+                        {
+                            indexState = i;
+                            break;
+                        }
+                    }
+
+                    stateList2[indexState].State = "Active";
+
+                    string strResultJsonState2 = JsonConvert.SerializeObject(stateList2, Formatting.Indented);
+                    File.WriteAllText(Etat.filePath, strResultJsonState2);
+                    // differential backup
+                    DifferentialBackup SD = new DifferentialBackup();
+                    SD.Sauvegarde(sourceDir, backupDir, true, indexState, filesNum, index, name);
+
+                }
+                else
+                {
+                    var jsonDataState2 = File.ReadAllText(Etat.filePath);
+                    var stateList2 = JsonConvert.DeserializeObject<List<Etat>>(jsonDataState2) ?? new List<Etat>();
+
+                    int indexState = 0;
+                    for (int i = 0; i < stateList2.Count; i++)
+                    {
+                        if (stateList2[i].Name == workList[index].name)
+                        {
+                            indexState = i;
+                            break;
+                        }
+                    }
+
+                    stateList2[indexState].State = "Active";
+
+                    string strResultJsonState2 = JsonConvert.SerializeObject(stateList2, Formatting.Indented);
+                    File.WriteAllText(Etat.filePath, strResultJsonState2);
+                    // complete backup
+                    FullBackup SD = new FullBackup();
+                    SD.Sauvegarde(sourceDir, backupDir, true, indexState, filesNum, index, name);
+
+                }
+
+            }
+            else
+            {   // Switch the language of the outpoot according to the choice of the user when he started the program
+                if (Language.language == "FR")
+                {
+
+                    Console.WriteLine("No backup job with entry " + inputUtilisateur + " found !\n");
+
+                }
+                else if (Language.language == "EN")
+                {
+
+                    Console.WriteLine("No backup job with entry " + inputUtilisateur + " found !\n");
+
+                }
+            }
+        }
+        public void ExecuteAllWork()
+        {
+            var jsonData = File.ReadAllText(Work.filePath);
+            var workList = JsonConvert.DeserializeObject<List<Work>>(jsonData) ?? new List<Work>();
+
+            for (int i = 0; i < workList.Count; i++)
+            {
+                ExecuteWork("1");
+            }
+        }
+        public long GetFileSizeSumFromDirectory(string searchDirectory) //a method that allow to calculate the size of a directory (subdirrectory included)
+        {
+            var files = Directory.EnumerateFiles(searchDirectory);
+
+            // get the sizeof all files in the current directory
+            var currentSize = (from file in files let fileInfo = new FileInfo(file) select fileInfo.Length).Sum();
+
+            var directories = Directory.EnumerateDirectories(searchDirectory);
+
+            // get the size of all files in all subdirectories
+            var subDirSize = (from directory in directories select GetFileSizeSumFromDirectory(directory)).Sum();
+
+            return currentSize + subDirSize;
+        }
+    }
+}
