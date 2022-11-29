@@ -18,3 +18,6 @@ C:\Users\jerem\source\repos\ProjetCsharp\ProjectCsharp\obj\Debug\net7.0\ProjectC
 C:\Users\jerem\source\repos\ProjetCsharp\ProjectCsharp\obj\Debug\net7.0\ProjectCsharp.Language.strings.fr.resources
 C:\Users\jerem\source\repos\ProjetCsharp\ProjectCsharp\bin\Debug\net7.0\fr\ProjectCsharp.resources.dll
 C:\Users\jerem\source\repos\ProjetCsharp\ProjectCsharp\obj\Debug\net7.0\fr\ProjectCsharp.resources.dll
+C:\Users\jerem\Source\Repos\ProjetCsharp2\ProjectCsharp\obj\Debug\net7.0\ProjectCsharp.dll
+C:\Users\jerem\Source\Repos\ProjetCsharp2\ProjectCsharp\obj\Debug\net7.0\refint\ProjectCsharp.dll
+C:\Users\jerem\Source\Repos\ProjetCsharp2\ProjectCsharp\obj\Debug\net7.0\ProjectCsharp.pdb

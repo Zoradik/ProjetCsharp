@@ -10,6 +10,22 @@ namespace Projet
             // a loop that used for the language parameter
             while (true)
             {
+                Console.WriteLine("_____________________________________________");
+                Console.WriteLine("_OOOOOOO_______O_______OOOOO___OO_____OO_____");
+                Console.WriteLine("_OOO__________O_O______OO_______OO___OO______");
+                Console.WriteLine("_OOOOO______OOOOOOO____OOOOO_____OOOO________");
+                Console.WriteLine("_OOO_______OO_____OO_____OOO______OO_________");
+                Console.WriteLine("_OOOOOOO__OOO_____OOO__OOOOO______OO_________");
+                Console.WriteLine("_____________________________________________");
+
+                Console.WriteLine("_____________________________________________");
+                Console.WriteLine("_OOOOO_______O_______OO______OO___OOOOOOO____");
+                Console.WriteLine("_OO_________O_O_______OO____OO____OOO________");
+                Console.WriteLine("_OOOOO____OOOOOOO______OO__OO_____OOOOO______");
+                Console.WriteLine("___OOO___OO_____OO______OOOO______OOO________");
+                Console.WriteLine("_OOOOO__OOO_____OOO______OO_______OOOOOOO____");
+                Console.WriteLine("_____________________________________________");
+
                 Console.WriteLine("Choose a language");
                 Console.Write("1. English \t");
                 Console.Write("2. Français\n");
