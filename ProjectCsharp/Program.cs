@@ -10,21 +10,21 @@ namespace Projet
             // a loop that used for the language parameter
             while (true)
             {
-                Console.WriteLine("_____________________________________________");
-                Console.WriteLine("_OOOOOOO_______O_______OOOOO___OO_____OO_____");
-                Console.WriteLine("_OOO__________O_O______OO_______OO___OO______");
-                Console.WriteLine("_OOOOO______OOOOOOO____OOOOO_____OOOO________");
-                Console.WriteLine("_OOO_______OO_____OO_____OOO______OO_________");
-                Console.WriteLine("_OOOOOOO__OOO_____OOO__OOOOO______OO_________");
-                Console.WriteLine("_____________________________________________");
+                Console.WriteLine("_________________________________________________");
+                Console.WriteLine("_____OOOOOOO_______O_______OOOOO___OO_____OO_____");
+                Console.WriteLine("_____OOO__________O_O______OO_______OO___OO______");
+                Console.WriteLine("_____OOOOO______OOOOOOO____OOOOO_____OOOO________");
+                Console.WriteLine("_____OOO_______OO_____OO_____OOO______OO_________");
+                Console.WriteLine("_____OOOOOOO__OOO_____OOO__OOOOO______OO_________");
+                Console.WriteLine("_________________________________________________");
 
-                Console.WriteLine("_____________________________________________");
-                Console.WriteLine("_OOOOO_______O_______OO______OO___OOOOOOO____");
-                Console.WriteLine("_OO_________O_O_______OO____OO____OOO________");
-                Console.WriteLine("_OOOOO____OOOOOOO______OO__OO_____OOOOO______");
-                Console.WriteLine("___OOO___OO_____OO______OOOO______OOO________");
-                Console.WriteLine("_OOOOO__OOO_____OOO______OO_______OOOOOOO____");
-                Console.WriteLine("_____________________________________________");
+                Console.WriteLine("_________________________________________________");
+                Console.WriteLine("_____OOOOO_______O_______OO______OO___OOOOOOO____");
+                Console.WriteLine("_____OO_________O_O_______OO____OO____OOO________");
+                Console.WriteLine("_____OOOOO____OOOOOOO______OO__OO_____OOOOO______");
+                Console.WriteLine("_______OOO___OO_____OO______OOOO______OOO________");
+                Console.WriteLine("_____OOOOO__OOO_____OOO______OO_______OOOOOOO____");
+                Console.WriteLine("_________________________________________________");
 
                 Console.WriteLine("Choose a language");
                 Console.Write("1. English \t");
