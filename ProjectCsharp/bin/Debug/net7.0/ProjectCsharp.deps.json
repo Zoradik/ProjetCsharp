@@ -9,6 +9,11 @@
       "ProjectCsharp/1.0.0": {
         "runtime": {
           "ProjectCsharp.dll": {}
+        },
+        "resources": {
+          "fr/ProjectCsharp.resources.dll": {
+            "locale": "fr"
+          }
         }
       }
     }

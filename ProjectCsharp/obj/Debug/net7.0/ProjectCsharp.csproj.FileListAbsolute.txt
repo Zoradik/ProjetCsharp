@@ -13,3 +13,8 @@ C:\Users\jerem\source\repos\ProjetCsharp\ProjectCsharp\obj\Debug\net7.0\refint\P
 C:\Users\jerem\source\repos\ProjetCsharp\ProjectCsharp\obj\Debug\net7.0\ProjectCsharp.pdb
 C:\Users\jerem\source\repos\ProjetCsharp\ProjectCsharp\obj\Debug\net7.0\ProjectCsharp.genruntimeconfig.cache
 C:\Users\jerem\source\repos\ProjetCsharp\ProjectCsharp\obj\Debug\net7.0\ref\ProjectCsharp.dll
+C:\Users\jerem\source\repos\ProjetCsharp\ProjectCsharp\obj\Debug\net7.0\ProjectCsharp.csproj.GenerateResource.cache
+C:\Users\jerem\source\repos\ProjetCsharp\ProjectCsharp\obj\Debug\net7.0\ProjectCsharp.Language.strings.resources
+C:\Users\jerem\source\repos\ProjetCsharp\ProjectCsharp\obj\Debug\net7.0\ProjectCsharp.Language.strings.fr.resources
+C:\Users\jerem\source\repos\ProjetCsharp\ProjectCsharp\bin\Debug\net7.0\fr\ProjectCsharp.resources.dll
+C:\Users\jerem\source\repos\ProjetCsharp\ProjectCsharp\obj\Debug\net7.0\fr\ProjectCsharp.resources.dll
