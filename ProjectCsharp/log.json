@@ -6,5 +6,21 @@
     "FileSize": "1507128",
     "FileTransferTime": "00:00:00.61",
     "time": "29/11/2022 09:56:46"
+  },
+  {
+    "Name": "OUi",
+    "FileSource": "C:\\Users\\jerem\\Desktop\\dmgo 11\\input",
+    "FileTarget": "C:\\Users\\jerem\\Desktop\\Workshop",
+    "FileSize": "1507128",
+    "FileTransferTime": "00:00:00.07",
+    "time": "29/11/2022 14:34:22"
+  },
+  {
+    "Name": "Test",
+    "FileSource": "C:\\Users\\jerem\\Desktop\\Crack Photoshop",
+    "FileTarget": "C:\\Users\\jerem\\Desktop\\build (3)",
+    "FileSize": "7765315",
+    "FileTransferTime": "00:00:00.10",
+    "time": "29/11/2022 14:34:42"
   }
 ]

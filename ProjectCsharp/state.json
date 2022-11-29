@@ -1,5 +1,4 @@
 [
- 
   {
     "Name": "Oui",
     "SourceFilePath": "C:\\Users\\jerem\\Desktop\\dmgo 11\\input",
@@ -15,11 +14,22 @@
     "Name": "OUi",
     "SourceFilePath": "C:\\Users\\jerem\\Desktop\\dmgo 11\\input",
     "TargetFilePath": "C:\\Users\\jerem\\Desktop\\Workshop",
-    "Time": "29/11/2022 09:56:38",
-    "State": "INACTIVE",
+    "Time": "29/11/2022 14:34:22",
+    "State": "END",
     "TotalFilesToCopy": "67",
     "TotalFilesSize": "1507128",
     "NbFilesLeftToDo": "0",
-    "Progression": "0%"
+    "Progression": "100%"
+  },
+  {
+    "Name": "Test",
+    "SourceFilePath": "C:\\Users\\jerem\\Desktop\\Crack Photoshop",
+    "TargetFilePath": "C:\\Users\\jerem\\Desktop\\build (3)",
+    "Time": "29/11/2022 14:34:42",
+    "State": "END",
+    "TotalFilesToCopy": "41",
+    "TotalFilesSize": "7765315",
+    "NbFilesLeftToDo": "0",
+    "Progression": "100%"
   }
 ]

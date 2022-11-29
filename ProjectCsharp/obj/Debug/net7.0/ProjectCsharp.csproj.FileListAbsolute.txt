@@ -21,3 +21,6 @@ C:\Users\jerem\source\repos\ProjetCsharp\ProjectCsharp\obj\Debug\net7.0\fr\Proje
 C:\Users\jerem\Source\Repos\ProjetCsharp2\ProjectCsharp\obj\Debug\net7.0\ProjectCsharp.dll
 C:\Users\jerem\Source\Repos\ProjetCsharp2\ProjectCsharp\obj\Debug\net7.0\refint\ProjectCsharp.dll
 C:\Users\jerem\Source\Repos\ProjetCsharp2\ProjectCsharp\obj\Debug\net7.0\ProjectCsharp.pdb
+C:\Users\jerem\Source\Repos\ProjetCsharpv3\ProjectCsharp\obj\Debug\net7.0\ProjectCsharp.dll
+C:\Users\jerem\Source\Repos\ProjetCsharpv3\ProjectCsharp\obj\Debug\net7.0\refint\ProjectCsharp.dll
+C:\Users\jerem\Source\Repos\ProjetCsharpv3\ProjectCsharp\obj\Debug\net7.0\ProjectCsharp.pdb
