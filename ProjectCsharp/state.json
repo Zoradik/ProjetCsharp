@@ -1,0 +1,25 @@
+[
+ 
+  {
+    "Name": "Oui",
+    "SourceFilePath": "C:\\Users\\jerem\\Desktop\\dmgo 11\\input",
+    "TargetFilePath": "C:\\Users\\jerem\\Desktop\\Workshop",
+    "Time": "29/11/2022 09:56:46",
+    "State": "END",
+    "TotalFilesToCopy": "67",
+    "TotalFilesSize": "1507128",
+    "NbFilesLeftToDo": "2",
+    "Progression": "100%"
+  },
+  {
+    "Name": "OUi",
+    "SourceFilePath": "C:\\Users\\jerem\\Desktop\\dmgo 11\\input",
+    "TargetFilePath": "C:\\Users\\jerem\\Desktop\\Workshop",
+    "Time": "29/11/2022 09:56:38",
+    "State": "INACTIVE",
+    "TotalFilesToCopy": "67",
+    "TotalFilesSize": "1507128",
+    "NbFilesLeftToDo": "0",
+    "Progression": "0%"
+  }
+]
