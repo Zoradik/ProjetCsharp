@@ -7,6 +7,7 @@ EASY SAVE is a software that help user saving their data.
   - <a href="#language">Language</a>
   - <a href="#add-a-backup-work">Add a backup work</a>
   - <a href="#execute-a-backup-work">Execute a backup work</a>
+  - <a href="#quit-easysave">Quit EasySave</a>
 - <a href="#licence">Licence</a> 
 
 
@@ -65,7 +66,7 @@ You will be able to see the progression of the save.
 ![progess](https://github.com/Zoradik/ProjetCsharp/blob/develop/ProjectCsharp/Images/progress.png)
 
 
-#### Quit EasySave :
+#### Quit EasySave
 
 Enter ``3`` will close the EasySave.
 
