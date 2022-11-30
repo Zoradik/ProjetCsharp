@@ -3,10 +3,11 @@
 EASY SAVE est un logiciel qui aide l'utilisateur à sauvegarder ses données.
 
 - <a href="#prérequis">Prérequis</a> 
-- <a href="#mode-d'emploi">Mode d'emploi</a>
+- <a href="#guide-utilisateur">Guide Utilisateur</a>
   - <a href="#langues">Langues</a>
   - <a href="#ajouter-un-travail-de-sauvegarde">Ajouter un travail de sauvegarde</a>
-  - <a href="#execute-a-backup-work">Execute a backup work</a>
+  - <a href="#exécuter-un-travail-de-sauvegarde">Exécuter un travail de sauvegarde</a>
+  - <a href="#quitter-easysave">Quitter EasySave</a>
 - <a href="#licence">Licence</a> 
 
 
@@ -21,7 +22,7 @@ Cette application aura besoin des conditions suivantes pour fonctionner correcte
  - "Newtonsoft.Json" sur VisualStudio 
 
 
-## Mode d'emploi
+## Guide Utilisateur
 
 ### V1 Application Console
 
@@ -35,41 +36,42 @@ Vous pouvez choisir la langue de l'application console à chaque fois que l'appl
 
 #### Ajouter un travail de sauvegarde
 
-To create a backup work, enter ``1``:
-then the program will ask you severals informations :
-  1. a name to identify your Save
-  2. a source directory, where the program will copy the files from
-  3. a target directory, where the program will paste the file in
-  4. a type of save, complete ou differential
+Pour ajouter un travail de sauvegarde, entrez ``1`` :
+Ensuite le programme vous demandera plusieurs informations :
+   1. un nom pour identifier votre sauvegarde
+   2. un répertoire source, où le programme copiera les fichiers
+   3. un répertoire cible, où le programme dupliquera les fichiers
+   4. un type de sauvegarde, complète ou différentielle
 
 ![add](https://github.com/Zoradik/ProjetCsharp/blob/develop/ProjectCsharp/Images/add.png)
 
 P.S. : 
-Full backup: consists of copying all the files and folders of a system, storing all the data.
-Differential backup: only files modified since the last full backup are backed up.
+Sauvegarde complète : consiste à copier tous les fichiers et dossiers d'un système, en stockant toutes les données.
+Sauvegarde différentielle : seuls les fichiers modifiés depuis la dernière sauvegarde complète sont sauvegardés.
 
-Once the type is specified : the backup work begin. The app show you the progression of the work.
+Une fois le type spécifié : le travail de sauvegarde commence. L'application vous montre la progression du travail de sauvegarde.
 
 ![progess](https://github.com/Zoradik/ProjetCsharp/blob/develop/ProjectCsharp/Images/progress.png)
 
-#### Execute a backup work
+#### Exécuter un travail de sauvegarde
 
-To execute a backup work, enter ``2``:
-Then the program will ask you the index among the table that you want to make.
-Afterward, you will choose the type of save you want to make. Enter ``1`` for one save, or ``2`` to save all the work.
+Pour exécuter un travail de sauvegarde, entrez ``2`` :
+Ensuite le programme vous demandera l'index de la sauvegarde que vous voulez faire.
+Ensuite, vous choisirez le type de sauvegarde que vous souhaitez effectuer. 
+Entrez ``1`` pour une sauvegarde, ou ``2`` pour sauvegarder tous les travaux.
 
 ![execute](https://github.com/Zoradik/ProjetCsharp/blob/develop/ProjectCsharp/Images/execute.png)
 
-You will be able to see the progression of the save. 
+Vous pourrez voir la progression de la sauvegarde.
 
 ![progess](https://github.com/Zoradik/ProjetCsharp/blob/develop/ProjectCsharp/Images/progress.png)
 
 
-#### Quit EasySave :
+#### Quitter EasySave
 
-Enter ``3`` will close the EasySave.
+Entrez ``3`` fermera EasySave.
 
 ## Licence
 
-This project is under licence by the company ``ProSoft``
+Ce projet est sous licence par la société ``ProSoft``
 
