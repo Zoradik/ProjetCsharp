@@ -15,4 +15,4 @@ then the program will ask you severals informations :
   3. a target directory, where the program will paste the file in
   4. a type of save, complete ou differencial
 
-![image](ProjectCsharp/Images/add.png)
+![image]([ProjectCsharp/Images/add.png](https://github.com/Zoradik/ProjetCsharp/blob/eaef2c5bf581a963afb6bc8f8712cdbc6d1e1bc1/ProjectCsharp/Images/add.png))
