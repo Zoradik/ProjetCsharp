@@ -46,5 +46,13 @@
     "FileSize": "1134",
     "FileTransferTime": "00:00:00.01",
     "time": "30/11/2022 09:07:13"
+  },
+  {
+    "Name": "poun",
+    "FileSource": "C:\\Dossier CESI\\tout ou rien\\theme",
+    "FileTarget": "C:\\Users\\jerem\\Desktop\\CDM\\Images",
+    "FileSize": "969274",
+    "FileTransferTime": "00:00:00.10",
+    "time": "30/11/2022 14:34:28"
   }
 ]

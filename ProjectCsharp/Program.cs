@@ -10,21 +10,21 @@ namespace Projet
             // une boucle utilisée pour les langues
             while (true)
             {
-                Console.WriteLine("_________________________________________________");
-                Console.WriteLine("_____OOOOOOO_______O_______OOOOO___OO_____OO_____");
-                Console.WriteLine("_____OOO__________O_O______OO_______OO___OO______");
-                Console.WriteLine("_____OOOOO______OOOOOOO____OOOOO_____OOOO________");
-                Console.WriteLine("_____OOO_______OO_____OO_____OOO______OO_________");
-                Console.WriteLine("_____OOOOOOO__OOO_____OOO__OOOOO______OO_________");
-                Console.WriteLine("_________________________________________________");
-
-                Console.WriteLine("_________________________________________________");
-                Console.WriteLine("_____OOOOO_______O_______OO______OO___OOOOOOO____");
-                Console.WriteLine("_____OO_________O_O_______OO____OO____OOO________");
-                Console.WriteLine("_____OOOOO____OOOOOOO______OO__OO_____OOOOO______");
-                Console.WriteLine("_______OOO___OO_____OO______OOOO______OOO________");
-                Console.WriteLine("_____OOOOO__OOO_____OOO______OO_______OOOOOOO____");
-                Console.WriteLine("_________________________________________________");
+                Console.WriteLine("________________________________________________________________________________________________________________________");
+                Console.WriteLine("__________________________________________OOOOOOO_______O_______OOOOO___OO_____OO_______________________________________");
+                Console.WriteLine("__________________________________________OOO__________O_O______OO_______OO___OO________________________________________");
+                Console.WriteLine("__________________________________________OOOOO______OOOOOOO____OOOOO_____OOOO__________________________________________");
+                Console.WriteLine("__________________________________________OOO_______OO_____OO_____OOO______OO___________________________________________");
+                Console.WriteLine("__________________________________________OOOOOOO__OOO_____OOO__OOOOO______OO___________________________________________");
+                Console.WriteLine("________________________________________________________________________________________________________________________");
+                Console.WriteLine("|                                                                                                                      |");
+                Console.WriteLine("________________________________________________________________________________________________________________________");
+                Console.WriteLine("________________________________________OOOOO_________O_______OO______OO___OOOOOOO______________________________________");
+                Console.WriteLine("________________________________________OO___________O_O_______OO____OO____OOO__________________________________________");
+                Console.WriteLine("________________________________________OOOOO______OOOOOOO______OO__OO_____OOOOO________________________________________");
+                Console.WriteLine("__________________________________________OOO_____OO_____OO______OOOO______OOO__________________________________________");
+                Console.WriteLine("________________________________________OOOOO____OOO_____OOO______OO_______OOOOOOO______________________________________");
+                Console.WriteLine("________________________________________________________________________________________________________________________");
 
                 Console.WriteLine("Choose a language");
                 Console.Write("1. English \t");
@@ -52,8 +52,10 @@ namespace Projet
             // Boucle globale du prgramme
             while (true)
             {
+                
                 if (Language.language == "FR")
                 {
+                    Console.WriteLine("Choisissez le travail que vous souhaitez executer : ");
                     Console.Write("1. Ajoutez un travail de sauvegarde \t");
                     Console.Write("2. Executez un travail de sauvegarde\n");
                     Console.WriteLine("3. Quittez l'application\n");
@@ -181,8 +183,9 @@ namespace Projet
                         Console.WriteLine("Mauvaise entrée vous pouvez sélectionner <1> ou <2> ou <3>\n");
                     }
                 }
-                else if (Language.language == "EN") //Language anglais
+                else if (Language.language == "EN") //Langage anglais
                 {
+                    Console.WriteLine("Choose the job you wish to use : ");
                     Console.Write("1. Add a backup work \t");
                     Console.Write("2. Execute a backup work\n");
                     Console.WriteLine("3. Leave application\n");

@@ -53,5 +53,16 @@
     "TotalFilesSize": "1134",
     "NbFilesLeftToDo": "0",
     "Progression": "100%"
+  },
+  {
+    "Name": "poun",
+    "SourceFilePath": "C:\\Dossier CESI\\tout ou rien\\theme",
+    "TargetFilePath": "C:\\Users\\jerem\\Desktop\\CDM\\Images",
+    "Time": "30/11/2022 14:34:28",
+    "State": "END",
+    "TotalFilesToCopy": "58",
+    "TotalFilesSize": "969274",
+    "NbFilesLeftToDo": "0",
+    "Progression": "0%"
   }
 ]
