@@ -5,6 +5,7 @@ EASY SAVE is a software that help user saving their data.
 - <a href="#prerequisites">Prerequisites</a> 
 - <a href="#user-guide">User Guide</a>
   - <a href="#language">Language</a>
+  - <a href="#add-a-backup-work">Add a backup work</a>
   - <a href="#execute-a-backup-work">Execute a backup work</a>
 - <a href="#licence">Licence</a> 
 
