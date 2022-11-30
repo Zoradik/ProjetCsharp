@@ -2,6 +2,15 @@
 
 EASY SAVE is a logiciel that help user saving their data.
 
+- <a href="#prerequisites">Prerequisites</a> 
+- <a href="#user-guide">User Guide</a>
+  - <a href="#language">Language</a>
+  - <a href="#execute-a-backup-work">Execute a backup work</a>
+- <a href="#licence">Licence</a> 
+
+
+
+ 
 ## Prerequisites
 
 This application will need the folowing requirement to run smoothly :
@@ -23,7 +32,7 @@ You can choose the Language of the console app everytime the app opens. Enter ``
 
 ![language](https://github.com/Zoradik/ProjetCsharp/blob/develop/ProjectCsharp/Images/language.png)
 
-#### Add a backup work :
+#### Add a backup work
 
 To create a backup work, enter ``1``:
 then the program will ask you severals informations :
@@ -42,7 +51,7 @@ Once the type specified : the backup work begin. The app show you the progressio
 
 ![progess](https://github.com/Zoradik/ProjetCsharp/blob/develop/ProjectCsharp/Images/progress.png)
 
-#### Execute a backup work :
+#### Execute a backup work
 
 To execute a backup work, enter ``2``:
 Then the program will ask you the index among the table that you want to make.
@@ -59,7 +68,7 @@ You will be able to see the progression of the save.
 
 Enter ``3`` will close the EasySave.
 
-## License
+## Licence
 
-This project is under license by the company ``ProSoft``
+This project is under licence by the company ``ProSoft``
 
