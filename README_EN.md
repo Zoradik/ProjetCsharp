@@ -23,4 +23,7 @@ then the program will ask you severals informations :
 
 ![add](https://github.com/Zoradik/ProjetCsharp/blob/develop/ProjectCsharp/Images/add.png)
 
+Once the type specified : the backup work begin. The app show you the progression of the work.
+
+![progess](https://github.com/Zoradik/ProjetCsharp/blob/develop/ProjectCsharp/Images/progress.png)
 
