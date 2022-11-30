@@ -1,5 +1,16 @@
 # EasySave
 
+EASY SAVE is a logiciel that help user saving their data.
+
+## Prerequisites
+
+This application will need the folowing requirement to run smoothly :
+ - Windows 10 or more recent
+ - 4go of RAM or more
+ - "ConsoleTables" package 
+ - "Newtonsoft.Json" package 
+
+
 ## User Guide
 
 ### V1  Console App
@@ -34,8 +45,14 @@ Once the type specified : the backup work begin. The app show you the progressio
 #### Execute a backup work :
 
 To execute a backup work, enter 2:
-then the program will ask you the index of the backup you want to make.
+Then the program will ask you the index among the table that you want to make.
 Afterward, you will choose the type of save you want to make. Enter "1" for 1 save, or "2" to save all the work.
 
 ![execute](https://github.com/Zoradik/ProjetCsharp/blob/develop/ProjectCsharp/Images/execute.png)
+
+You will be able to see the progression of the save. 
+
+![progess](https://github.com/Zoradik/ProjetCsharp/blob/develop/ProjectCsharp/Images/progress.png)
+
+
 
