@@ -10,13 +10,13 @@ namespace Projet
 {
     class EasySave
     {
-        // a method that will allow to create a backupwork
+        // Methode pour créer une backup pour le work
         public void addWork(long filesize, int countfile, string theName, string theRepS, string theRepC, string theType)
         {
-            var jsonDataWork = File.ReadAllText(Work.filePath); //Read the JSON file
-            var workList = JsonConvert.DeserializeObject<List<Work>>(jsonDataWork) ?? new List<Work>(); //convert a string into an object for JSON
+            var jsonDataWork = File.ReadAllText(Work.filePath); //Lire le fichier JSON
+            var workList = JsonConvert.DeserializeObject<List<Work>>(jsonDataWork) ?? new List<Work>(); //convertion un string en un objet pour JSON
 
-            var jsonDataWork2 = File.ReadAllText(Etat.filePath); //Read the JSON file
+            var jsonDataWork2 = File.ReadAllText(Etat.filePath); //Lire le fichier JSON
             var stateList2 = JsonConvert.DeserializeObject<List<Etat>>(jsonDataWork2) ?? new List<Etat>();
 
             bool nameExist = false;
@@ -35,9 +35,9 @@ namespace Projet
 
             if (!nameExist)
             {
-                if (workList.Count < 5) // this condition limits the number of backupwork that can be created (5 max)
+                if (workList.Count < 5) // La condition paramètre les limites des works qu'on peut créer 
                 {
-                    workList.Add(new Work() //parameter that the JSON file will contains
+                    workList.Add(new Work() //paramètres que le fichier JSON contiendra
                     {
                         name = theName,
                         repS = theRepS,
@@ -46,14 +46,14 @@ namespace Projet
                     });
 
 
-                    string strResultJsonWork = JsonConvert.SerializeObject(workList, Formatting.Indented);  //convert an object into a string for JSON
-                    File.WriteAllText(Work.filePath, strResultJsonWork); // write in the JSON file
+                    string strResultJsonWork = JsonConvert.SerializeObject(workList, Formatting.Indented);  //convertion un string en un objet pour JSON
+                    File.WriteAllText(Work.filePath, strResultJsonWork); // Ecriture du fichier JSON
 
-                    var jsonDataState = File.ReadAllText(Etat.filePath); //Read the JSON file
-                    var stateList = JsonConvert.DeserializeObject<List<Etat>>(jsonDataState) ?? new List<Etat>(); //convert a string into an object for JSON
+                    var jsonDataState = File.ReadAllText(Etat.filePath); //Lire le fichier JSON
+                    var stateList = JsonConvert.DeserializeObject<List<Etat>>(jsonDataState) ?? new List<Etat>(); //convertion un string en un objet pour JSON
 
 
-                    stateList.Add(new Etat() //parameter that the JSON file will contains
+                    stateList.Add(new Etat() //Paramètre que le JSON aura 
                     {
                         Name = theName,
                         SourceFilePath = theRepC,
@@ -66,10 +66,10 @@ namespace Projet
                         Progression = "0%"
                     });
 
-                    string strResultJsonState = JsonConvert.SerializeObject(stateList, Formatting.Indented); //convert an object into a string for JSON
-                    File.WriteAllText(Etat.filePath, strResultJsonState); // write in the JSON file
+                    string strResultJsonState = JsonConvert.SerializeObject(stateList, Formatting.Indented); //convertion un string en un objet pour JSON
+                    File.WriteAllText(Etat.filePath, strResultJsonState); // Ecriture dans le fichier JSON
 
-                    // Switch the language of the outpoot according to the choice of the user when he started the program
+                    // Choix du langage en fonction du choix principal de la langue
                     if (Language.language == "FR")
                     {
 
@@ -84,7 +84,7 @@ namespace Projet
                     }
                 }
                 else
-                {   // Switch the language of the outpoot according to the choice of the user when he started the program
+                {   // Choix du langage en fonction du choix principal de la langue
                     if (Language.language == "FR")
                     {
 
@@ -100,7 +100,7 @@ namespace Projet
                 }
             }
             else
-            {   // Switch the language of the outpoot according to the choice of the user when he started the program
+            {   // Choix du langage en fonction du choix principal de la langue
                 if (Language.language == "FR")
                 {
 
@@ -114,10 +114,10 @@ namespace Projet
                 }
             }
         }
-        public void displayWorks() // a method that will allow to display all our backupwork
+        public void displayWorks() // une méthode qui permettra d'afficher tous nos travaux de sauvegarde
         {
-            var jsonData = File.ReadAllText(Work.filePath); //Read the JSON file
-            var stateList = JsonConvert.DeserializeObject<List<Work>>(jsonData) ?? new List<Work>(); //convert a string into an object for JSON
+            var jsonData = File.ReadAllText(Work.filePath); //Lire le fichier JSON
+            var stateList = JsonConvert.DeserializeObject<List<Work>>(jsonData) ?? new List<Work>(); //convertion un string en un objet pour JSON
 
             var dt = new ConsoleTable("index", "Name", "SourceFilePath", "TargetFilePath", "Type");
             foreach (var (state, i) in stateList.Select((el, i) => (el, i)))
@@ -127,12 +127,12 @@ namespace Projet
 
             dt.Write();
         }
-        public void ExecuteWork(string inputUtilisateur) // a method that will allow to execute a backupwork created
+        public void ExecuteWork(string inputUtilisateur) // une méthode qui permettra d'executer tous nos travaux de sauvegarde
         {
-            var jsonData = File.ReadAllText(Work.filePath); //Read the JSON file
-            var workList = JsonConvert.DeserializeObject<List<Work>>(jsonData) ?? new List<Work>(); //convert a string into an object for JSON
+            var jsonData = File.ReadAllText(Work.filePath); //Lire le fichier JSON
+            var workList = JsonConvert.DeserializeObject<List<Work>>(jsonData) ?? new List<Work>(); //convertion string en un objet pour JSON
 
-            if (workList.Count >= Convert.ToInt32(inputUtilisateur)) //this condition allow to the user to choose the exact row in order to execute the backupwork chosen
+            if (workList.Count >= Convert.ToInt32(inputUtilisateur)) //cette condition permet à l'utilisateur de choisir la ligne exacte afin d'exécuter le travail de sauvegarde choisi.
             {
                 int index = Convert.ToInt32(inputUtilisateur) - 1;
                 string sourceDir = workList.ElementAt(index).repS;
@@ -140,7 +140,7 @@ namespace Projet
                 string name = workList.ElementAt(index).name;
                 long filesNum = Directory.GetFiles(sourceDir, "*", SearchOption.AllDirectories).Length;
 
-                //this condition is used to execute the type of backup chosen in the creation 
+                //cette condition est utilisée pour exécuter le type de sauvegarde choisi lors de la création
                 if (workList.ElementAt(Convert.ToInt32(inputUtilisateur) - 1).type == "Differential")
                 {
                     var jsonDataState2 = File.ReadAllText(Etat.filePath);
@@ -184,7 +184,7 @@ namespace Projet
 
                     string strResultJsonState2 = JsonConvert.SerializeObject(stateList2, Formatting.Indented);
                     File.WriteAllText(Etat.filePath, strResultJsonState2);
-                    // complete backup
+                    // backup complète
                     FullBackup SD = new FullBackup();
                     SD.Sauvegarde(sourceDir, backupDir, true, indexState, filesNum, index, name);
 
@@ -192,7 +192,7 @@ namespace Projet
 
             }
             else
-            {   // Switch the language of the outpoot according to the choice of the user when he started the program
+            {   // Changement du langage en fonction de la langue choisie 
                 if (Language.language == "FR")
                 {
 
@@ -217,16 +217,16 @@ namespace Projet
                 ExecuteWork("1");
             }
         }
-        public long GetFileSizeSumFromDirectory(string searchDirectory) //a method that allow to calculate the size of a directory (subdirrectory included)
+        public long GetFileSizeSumFromDirectory(string searchDirectory) //une méthode permettant de calculer la taille d'un répertoire
         {
             var files = Directory.EnumerateFiles(searchDirectory);
 
-            // get the sizeof all files in the current directory
+            // obtenir la taille de tous les fichiers dans le répertoire courant
             var currentSize = (from file in files let fileInfo = new FileInfo(file) select fileInfo.Length).Sum();
 
             var directories = Directory.EnumerateDirectories(searchDirectory);
 
-            // get the size of all files in all subdirectories
+            // obtenir la taille de tous les fichiers dans tous les sous-répertoires
             var subDirSize = (from directory in directories select GetFileSizeSumFromDirectory(directory)).Sum();
 
             return currentSize + subDirSize;
