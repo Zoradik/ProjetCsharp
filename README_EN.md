@@ -19,13 +19,13 @@ The user will be guided through the EasySave experience. Follow the instruction 
 
 ### Language
 
-You can choose the Language of the console app everytime the app opens. Enter "1" for english and "2" for french.
+You can choose the Language of the console app everytime the app opens. Enter ``1`` for english and ``2`` for french.
 
 ![language](https://github.com/Zoradik/ProjetCsharp/blob/develop/ProjectCsharp/Images/language.png)
 
 #### Add a backup work :
 
-To create a backup work, enter 1:
+To create a backup work, enter ``1``:
 then the program will ask you severals informations :
   1. a name to identify your Save
   2. a source directory, where the program will copy the files from
@@ -44,9 +44,9 @@ Once the type specified : the backup work begin. The app show you the progressio
 
 #### Execute a backup work :
 
-To execute a backup work, enter 2:
+To execute a backup work, enter ``2``:
 Then the program will ask you the index among the table that you want to make.
-Afterward, you will choose the type of save you want to make. Enter "1" for 1 save, or "2" to save all the work.
+Afterward, you will choose the type of save you want to make. Enter ``1`` for one save, or ``2`` to save all the work.
 
 ![execute](https://github.com/Zoradik/ProjetCsharp/blob/develop/ProjectCsharp/Images/execute.png)
 
@@ -57,7 +57,7 @@ You will be able to see the progression of the save.
 
 #### Quit EasySave :
 
-Enter "3" will close the EasySave.
+Enter ``3`` will close the EasySave.
 
 ## License
 
