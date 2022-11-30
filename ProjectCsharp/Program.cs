@@ -7,7 +7,7 @@ namespace Projet
     {
         static void Main(string[] args)
         {
-            // a loop that used for the language parameter
+            // une boucle utilisée pour les langues
             while (true)
             {
                 Console.WriteLine("_________________________________________________");
@@ -49,7 +49,7 @@ namespace Projet
                 }
             }
 
-            // a loop that used in the whole program
+            // Boucle globale du prgramme
             while (true)
             {
                 if (Language.language == "FR")
@@ -59,7 +59,7 @@ namespace Projet
                     Console.WriteLine("3. Quittez l'application\n");
 
                     string input = Console.ReadLine();
-                    if (input == "1") //add a backup work
+                    if (input == "1") //Ajouter un travail dans work
                     {
                         Console.Write("Entrez le nom d'un travail de sauvegarde :");
                         string inputName = Console.ReadLine();
@@ -85,11 +85,11 @@ namespace Projet
                                 EasySave backup = new EasySave();
                                 long size = backup.GetFileSizeSumFromDirectory(inputSourcePath);
                                 string inputType = "Full";
-                                backup.addWork(size, fCount, inputName, inputSourcePath, inputDestinationPath, inputType);
+                                backup.addWork(size, fCount, inputName, inputSourcePath, inputDestinationPath, inputType);//Ajout dans le travail
                             }
                             catch
                             {
-                                Console.Write("Le répertoire source ou de destination précisé est erroné");
+                                Console.Write("Le répertoire source ou de destination précisé est erroné"); //Si le répertoire n'est pas répertorié
                             }
                         }
                         else if (input == "2")
@@ -111,12 +111,12 @@ namespace Projet
                         else
                         {
 
-                            Console.WriteLine("Mauvaise entrée vous pouvez sélectionner <1> ou <2> ou <3>\n");
+                            Console.WriteLine("Mauvaise entrée vous pouvez sélectionner <1> ou <2> ou <3>\n"); //Protection d'erreur
 
                         }
 
                     }
-                    else if (input == "2") //execute a backup work
+                    else if (input == "2") //Tableau qui présentera l'ensemble des travaux créer 
                     {
                         Console.WriteLine("Voici les différents travaux de sauvegardes :");
 
@@ -129,14 +129,14 @@ namespace Projet
 
                         input = Console.ReadLine();
 
-                        if (input == "1")
+                        if (input == "1") //choix demandé
                         {
                             backup.displayWorks();
                             Console.WriteLine("Veuillez sélectionner l'index correspondant au travail de sauvegarde souhaité \n");
 
                             input = Console.ReadLine();
 
-                            switch (input)
+                            switch (input) //choix de job a executé au nombre maximum de 5 
                             {
                                 case "1":
                                     Console.WriteLine("Vous avez choisis le travail de sauvegarde numéro 1\n");
@@ -163,7 +163,7 @@ namespace Projet
                                     break;
                             }
                         }
-                        else if (input == "2")
+                        else if (input == "2") //execution de tous les jobs crée
                         {
                             backup.ExecuteAllWork();
                         }
@@ -172,7 +172,7 @@ namespace Projet
                             Console.WriteLine("Mauvaise entrée vous pouvez sélectionner <1> ou <2>\n");
                         }
                     }
-                    else if (input == "3") //leave the application
+                    else if (input == "3") //Cas où on quitte l'application
                     {
                         Environment.Exit(1);
                     }
@@ -181,7 +181,7 @@ namespace Projet
                         Console.WriteLine("Mauvaise entrée vous pouvez sélectionner <1> ou <2> ou <3>\n");
                     }
                 }
-                else if (Language.language == "EN")
+                else if (Language.language == "EN") //Language anglais
                 {
                     Console.Write("1. Add a backup work \t");
                     Console.Write("2. Execute a backup work\n");
