@@ -23,7 +23,20 @@ then the program will ask you severals informations :
 
 ![add](https://github.com/Zoradik/ProjetCsharp/blob/develop/ProjectCsharp/Images/add.png)
 
+P.S. : 
+Full backup: consists of copying all the files and folders of a system, storing all the data.
+Differential backup: only files modified since the last full backup are backed up.
+
 Once the type specified : the backup work begin. The app show you the progression of the work.
 
 ![progess](https://github.com/Zoradik/ProjetCsharp/blob/develop/ProjectCsharp/Images/progress.png)
+
+#### Execute a backup work :
+
+To execute a backup work, enter 2:
+then the program will ask you the index of the backup you want to make :
+  1. a name to identify your Save
+  2. a source directory, where the program will copy the files from
+  3. a target directory, where the program will paste the file in
+  4. a type of save, complete ou differencial
 
