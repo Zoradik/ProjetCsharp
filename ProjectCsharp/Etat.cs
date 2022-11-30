@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Projet
 {
-    class Etat
+    class Etat //classe Etat avec tous les attributs 
     {
         public static string filePath = @"..\..\..\state.json";
 

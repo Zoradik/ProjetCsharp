@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Projet
 {
-    // a global attribute that will be used for the language of the program
+    // un attribut global qui sera utilisé pour la langue du programme
     public class Language 
     {
         public static string language;
