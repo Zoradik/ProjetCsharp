@@ -1,5 +1,21 @@
 [
   {
+    "Name": "stop",
+    "FileSource": "C:\\Users\\jerem\\Desktop\\dmgo 11\\input",
+    "FileTarget": "C:\\Users\\jerem\\Desktop\\Workshop",
+    "FileSize": "1507128",
+    "FileTransferTime": "00:00:00.61",
+    "time": "21/11/2022 05:56:46"
+  },
+  {
+    "Name": "Nonon",
+    "FileSource": "C:\\Users\\jerem\\Desktop\\dmgo 11\\input",
+    "FileTarget": "C:\\Users\\jerem\\Desktop\\Workshop",
+    "FileSize": "2000451",
+    "FileTransferTime": "00:00:5.61",
+    "time": "24/11/2022 09:56:46"
+  },
+  {
     "Name": "Oui",
     "FileSource": "C:\\Users\\jerem\\Desktop\\dmgo 11\\input",
     "FileTarget": "C:\\Users\\jerem\\Desktop\\Workshop",
@@ -22,5 +38,13 @@
     "FileSize": "7765315",
     "FileTransferTime": "00:00:00.10",
     "time": "29/11/2022 14:34:42"
+  },
+  {
+    "Name": "ok",
+    "FileSource": "C:\\Users\\jerem\\Desktop\\RuruERPENESTo\\node_modules",
+    "FileTarget": "C:\\Users\\jerem\\Desktop\\RuruERPENESTo\\customLibraries",
+    "FileSize": "1134",
+    "FileTransferTime": "00:00:00.01",
+    "time": "30/11/2022 09:07:13"
   }
 ]
