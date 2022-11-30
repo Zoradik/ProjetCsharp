@@ -59,3 +59,7 @@ You will be able to see the progression of the save.
 
 Enter "3" will close the EasySave.
 
+## License
+
+This project is under license by the company ``ProSoft``
+
