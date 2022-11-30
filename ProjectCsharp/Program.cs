@@ -188,7 +188,7 @@ namespace Projet
                     Console.WriteLine("3. Leave application\n");
 
                     string input = Console.ReadLine();
-                    if (input == "1") //ad a backup work
+                    if (input == "1") //On ajoute une sauvegarde (comme pour le francais)
                     {
                         Console.Write("Enter the name of a backup work :");
                         string inputName = Console.ReadLine();
@@ -292,7 +292,7 @@ namespace Projet
                                     break;
                             }
                         }
-                        else if (input == "2") //this input will execute the sequential backup
+                        else if (input == "2") //execution
                         {
                             backup.ExecuteAllWork();
                         }
