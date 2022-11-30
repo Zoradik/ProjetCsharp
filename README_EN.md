@@ -55,4 +55,7 @@ You will be able to see the progression of the save.
 ![progess](https://github.com/Zoradik/ProjetCsharp/blob/develop/ProjectCsharp/Images/progress.png)
 
 
+#### Quit EasySave :
+
+Enter "3" will close the EasySave.
 
