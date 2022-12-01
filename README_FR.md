@@ -24,6 +24,8 @@ Cette application aura besoin des conditions suivantes pour fonctionner correcte
 
 ## Guide Utilisateur
 
+Pour lancer l'application il faut accéder et cliquer sur lancer sur Projet.csproj !'
+
 ### V1 Application Console
 
 L'utilisateur sera guidé à travers l'expérience EasySave. Suivez les instructions affichées sur la console et répondez avec des chiffres sur votre clavier

@@ -24,6 +24,8 @@ This application will need the following requirement to run smoothly :
 
 ## User Guide
 
+To use the app you need to launch Projet.csproj ! 
+
 ### V1  Console App
 
 The user will be guided through the EasySave experience. Follow the instruction displayed on the console and answer with numbers on your keyboard
