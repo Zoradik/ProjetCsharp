@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ProjectCsharp",
+    "\\ProjectCsharp\\Views"
   ],
-  "SelectedNode": "\\C:\\Users\\jerem\\Source\\Repos\\ProjetCsharpv7",
+  "SelectedNode": "\\ProjectCsharp\\test2.sln",
   "PreviewInSolutionExplorer": false
 }

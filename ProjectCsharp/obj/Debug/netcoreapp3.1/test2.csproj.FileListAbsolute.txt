@@ -1,0 +1,111 @@
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.exe
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.deps.json
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.runtimeconfig.json
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.runtimeconfig.dev.json
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.dll
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.pdb
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.csprojAssemblyReference.cache
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2_MarkupCompile.cache
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2_MarkupCompile.lref
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.g.resources
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.AssemblyInfoInputs.cache
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.AssemblyInfo.cs
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.csproj.CoreCompileInputs.cache
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.dll
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.pdb
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.genruntimeconfig.cache
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\Views\MainWindow.g.cs
+C:\Users\ameli\Documents\GitHub\CESIProgSys-EasySave\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\Views\MainWindow.baml
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.exe
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.deps.json
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.runtimeconfig.json
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.runtimeconfig.dev.json
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.dll
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.pdb
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.csproj.AssemblyReference.cache
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\Views\MainWindow.g.cs
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2_MarkupCompile.cache
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2_MarkupCompile.lref
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\Views\MainWindow.baml
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.g.resources
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.AssemblyInfoInputs.cache
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.AssemblyInfo.cs
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.csproj.CoreCompileInputs.cache
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.dll
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.pdb
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.genruntimeconfig.cache
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\Ookii.Dialogs.Wpf.dll
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.csproj.CopyComplete
+C:\Users\sofia\source\repos\test2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.exe
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.deps.json
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.runtimeconfig.json
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.runtimeconfig.dev.json
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.dll
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.pdb
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\Ookii.Dialogs.Wpf.dll
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.csproj.AssemblyReference.cache
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\Views\MainWindow.g.cs
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2_MarkupCompile.cache
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2_MarkupCompile.lref
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\Views\MainWindow.baml
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.g.resources
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.AssemblyInfoInputs.cache
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.AssemblyInfo.cs
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.csproj.CoreCompileInputs.cache
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.csproj.CopyComplete
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.dll
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.pdb
+C:\Users\MSI GAMER\Desktop\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.genruntimeconfig.cache
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.csproj.AssemblyReference.cache
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\Views\MainWindow.g.cs
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2_MarkupCompile.cache
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2_MarkupCompile.lref
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.dll
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.pdb
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.exe
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.deps.json
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.runtimeconfig.json
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.runtimeconfig.dev.json
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.dll
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\test2.pdb
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\bin\Debug\netcoreapp3.1\Ookii.Dialogs.Wpf.dll
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\Views\MainWindow.baml
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.g.resources
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.AssemblyInfoInputs.cache
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.AssemblyInfo.cs
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.csproj.CopyComplete
+C:\Users\jerem\Downloads\CESIProgSys-EasySave-main\V2\projet c# v2\V2-GUI\test1\test2\obj\Debug\netcoreapp3.1\test2.genruntimeconfig.cache
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\bin\Debug\netcoreapp3.1\test2.exe
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\bin\Debug\netcoreapp3.1\test2.deps.json
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\bin\Debug\netcoreapp3.1\test2.runtimeconfig.json
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\bin\Debug\netcoreapp3.1\test2.runtimeconfig.dev.json
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\bin\Debug\netcoreapp3.1\test2.dll
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\bin\Debug\netcoreapp3.1\test2.pdb
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\bin\Debug\netcoreapp3.1\Ookii.Dialogs.Wpf.dll
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\obj\Debug\netcoreapp3.1\test2.csproj.AssemblyReference.cache
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\obj\Debug\netcoreapp3.1\Views\MainWindow.g.cs
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\obj\Debug\netcoreapp3.1\test2_MarkupCompile.cache
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\obj\Debug\netcoreapp3.1\test2_MarkupCompile.lref
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\obj\Debug\netcoreapp3.1\Views\MainWindow.baml
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\obj\Debug\netcoreapp3.1\test2.g.resources
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\obj\Debug\netcoreapp3.1\test2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\obj\Debug\netcoreapp3.1\test2.AssemblyInfoInputs.cache
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\obj\Debug\netcoreapp3.1\test2.AssemblyInfo.cs
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\obj\Debug\netcoreapp3.1\test2.csproj.CoreCompileInputs.cache
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\obj\Debug\netcoreapp3.1\test2.csproj.CopyComplete
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\obj\Debug\netcoreapp3.1\test2.dll
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\obj\Debug\netcoreapp3.1\test2.pdb
+C:\Users\jerem\source\repos\ProjetCsharpv7\ProjectCsharp\obj\Debug\netcoreapp3.1\test2.genruntimeconfig.cache
