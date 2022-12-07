@@ -43,7 +43,7 @@ namespace Projet
                 {
                     using (var sourcef = File.OpenRead(file.FullName))
                     {
-                        // opening the destination PATH
+                        // Ouverture du PATH
                         using (var destinationf = File.OpenRead(file.FullName.Replace(sourcePATH, destPATH)))
                         {
                             var hash1 = BitConverter.ToString(MD5.Create().ComputeHash(sourcef));
