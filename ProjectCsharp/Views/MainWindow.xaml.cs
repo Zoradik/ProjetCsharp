@@ -16,8 +16,8 @@ using System.IO;
 
 namespace test2
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    // <summary>
+    /// Logique d'interaction pour MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
@@ -73,7 +73,7 @@ namespace test2
         }
 
 
-        //tab2 run save work
+        //executer save work
         private void tab2ButtonStartSequentialRun_Click(object sender, RoutedEventArgs e)
         {
             Projet.EasySave exeseqWork = new Projet.EasySave();
@@ -138,13 +138,13 @@ namespace test2
 
         }
 
-        //tab3 Settings 
+        //tab3 paramètres
 
         private void tab3ButtonFrench_Click(object sender, RoutedEventArgs e)
         {
             
             Button clickedButton = (Button)sender;
-            //clickedButton.Content = "...button clicked...";
+            //Contenu des bouttons
             clickedButton.IsEnabled = false;
             tab3ButtonEnglish.IsEnabled = true;
 
@@ -176,7 +176,7 @@ namespace test2
         private void tab3ButtonEnglish_Click(object sender, RoutedEventArgs e)
         {
             Button clickedButton = (Button)sender;
-            //clickedButton.Content = "...button clicked...";
+            //Contenu des boutons en anglais
             clickedButton.IsEnabled = false;
             tab3ButtonFrench.IsEnabled = true;
             
@@ -253,7 +253,7 @@ namespace test2
 
         
 
-        //button close
+        //Fermer les botuons
         private void CloseButton_Click(object sender, RoutedEventArgs e)
         {
             Close();
@@ -261,17 +261,17 @@ namespace test2
 
         private void TargetPATH_Clicked(object sender, RoutedEventArgs e)
         {
-           // Create OpenFileDialog
+            // Créer OpenFileDialog
             Ookii.Dialogs.Wpf.VistaFolderBrowserDialog openDlg = new Ookii.Dialogs.Wpf.VistaFolderBrowserDialog();
 
-            // Launch OpenFileDialog by calling ShowDialog method
+            // Lancer OpenFileDialog en appelant la méthode ShowDialog
             Nullable<bool> result = openDlg.ShowDialog();
-            // Get the selected file name and display in a TextBox.
-            // Load content of file in a TextBlock
+            //Récupérer le nom du fichier sélectionné et l'afficher dans un TextBox.
+            // Charger le contenu du fichier dans un TextBlock
             if (result == true)
             {
                 tab1TextBoxTargetPath.Text = openDlg.SelectedPath;
-                // TextBlock1.Text = System.IO.File.ReadAllText(openFileDlg.FileName);
+                
             }
             else
             {
@@ -281,17 +281,17 @@ namespace test2
         }
         private void SourcePath_Clicked(object sender, RoutedEventArgs e)
         {
-            // Create OpenFileDialog
+            // Créer OpenFileDialog
             Ookii.Dialogs.Wpf.VistaFolderBrowserDialog openDlg = new Ookii.Dialogs.Wpf.VistaFolderBrowserDialog();
 
-            // Launch OpenFileDialog by calling ShowDialog method
+            // Lancer OpenFileDialog en appelant la méthode ShowDialog
             Nullable<bool> result = openDlg.ShowDialog();
-            // Get the selected file name and display in a TextBox.
-            // Load content of file in a TextBlock
+            //Récupérer le nom du fichier sélectionné et l'afficher dans un TextBox.
+            // Charger le contenu du fichier dans un TextBlock
             if (result == true)
             {
                 tab1TextBoxSourcePath.Text = openDlg.SelectedPath;
-                // TextBlock1.Text = System.IO.File.ReadAllText(openFileDlg.FileName);
+                
             }
             else
             {

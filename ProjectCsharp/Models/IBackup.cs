@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Projet
 {
-    //a backup interface that contains the definition of the backup method (abstract factory interface )
+    //une interface de sauvegarde qui contient la définition de la méthode de sauvegarde (interface de fabrique abstraite)
     interface IBackup
     {
         void Sauvegarde(string sourcePATH, string destPATH, bool copyDirs, int getStateIndex, long fileCount, int getIndex, string getName);

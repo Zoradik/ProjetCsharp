@@ -8,8 +8,8 @@ using System.Windows;
 
 namespace test2
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
+    // <summary>
+    /// Logique d'interaction pour App.xaml
     /// </summary>
     public partial class App : Application
     {
