@@ -57,7 +57,7 @@ namespace Projet
                     var jsonDataNo = File.ReadAllText(Etat.filePath); //Lis le fichier json
                     var stateListNo = JsonConvert.DeserializeObject<List<Etat>>(jsonDataNo) ?? new List<Etat>(); //convertir une chaîne en un objet pour JSON
                 }
-                file.CopyTo(file.FullName.Replace(sourcePATH, destPATH), true); //Copies an existing file to a new file.
+                file.CopyTo(file.FullName.Replace(sourcePATH, destPATH), true); //Copie des fichiers existants dans un nouveau
                 i++;
                 var filesLeftToDo = Directory.GetFiles(sourcePATH, "*", SearchOption.AllDirectories).Length - i;
                 string progress = Convert.ToString((100 - (filesLeftToDo * 100) / fileCount)) + "%";
