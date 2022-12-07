@@ -236,7 +236,7 @@ namespace test2
         }
         private void tab3ButtonUserGuide_Click(object sender, RoutedEventArgs e)
         {
-            OpenProcess.OpenProcessFunction("notepad.exe", @"..\..\..\Files\UserGuide.txt");
+            OpenProcess.OpenProcessFunction("notepad.exe", @"..\..\..\Files\README_EN.md");
         }
 
         private void tab3ButtonOpenConfig_Click(object sender, RoutedEventArgs e)

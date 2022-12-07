@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E8YbqHtxJFn9uyGkq0gASQwkLRZmEsJCTD4gHO9dVylLRnkUlFkCNM2zmt81d705xC+HsaoQiaDFl63YHitHYg==",
+  "dgSpecHash": "3eYr08RKQXoFXqJYkckAfGu1mJXahdUSKCE9raS+DOJmk+EDoJ6e4c08WaqHy3l90T9hziWg+l7CLxkHV2z+dg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jerem\\source\\repos\\ProjetCsharpv7\\ProjectCsharp\\test2.csproj",
+  "projectFilePath": "C:\\Users\\jerem\\Source\\Repos\\ProjetCsharpv10\\ProjectCsharp\\test2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jerem\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\jerem\\.nuget\\packages\\ookii.dialogs.wpf\\5.0.0\\ookii.dialogs.wpf.5.0.0.nupkg.sha512"

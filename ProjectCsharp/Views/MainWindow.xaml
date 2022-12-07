@@ -136,7 +136,7 @@
                         </Button.Resources>
                     </Button>
                     <!-- Buttons respectivly to open the user guide, config files and logs-->
-                    <Button Name="tab3ButtonUserGuide" Content="Open User Guide" HorizontalAlignment="Left" Margin="210,92,0,0" VerticalAlignment="Top" Width="270" BorderBrush="white" Background="black"  Foreground="White" Height="42" Click="tab3ButtonUserGuide_Click">
+                    <Button Name="tab3ButtonUserGuide" Content="Open README EN" HorizontalAlignment="Left" Margin="210,92,0,0" VerticalAlignment="Top" Width="270" BorderBrush="white" Background="black"  Foreground="White" Height="42" Click="tab3ButtonUserGuide_Click">
                         <Button.Resources>
                             <Style TargetType="Border">
                                 <Setter Property="CornerRadius" Value="20"/>
