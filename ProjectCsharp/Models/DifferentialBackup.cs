@@ -7,12 +7,12 @@ using System.Text;
 using System.Linq;
 using System.Security.Cryptography;
 
-namespace Projet
+namespace test2
 {
 
     class DifferentialBackup : IBackup
     {
-        // a la méthode qui sera utilisée pour la sauvegarde différentielle
+        // La méthode qui sera utilisée pour la sauvegarde différentielle
         public void Sauvegarde(string sourcePATH, string destPATH, bool copyDirs, int getStateIndex, long fileCount, int getIndex, string getName)
         {
             //Initialiser un timer qui détermine le temps de sauvegarde.
@@ -21,7 +21,7 @@ namespace Projet
             // Obtenir les sous-répertoires pour le répertoire spécifié.
             DirectoryInfo dir = new DirectoryInfo(sourcePATH);
 
-            
+
             if (!dir.Exists)
             {
                 throw new DirectoryNotFoundException(
@@ -70,7 +70,7 @@ namespace Projet
                 string strResultJsonState = JsonConvert.SerializeObject(stateList, Formatting.Indented);  //convertir un objet en une chaîne de caractères pour JSON
                 File.WriteAllText(Etat.filePath, strResultJsonState);
                 // Changer la langue de l'outpoot selon le choix de l'utilisateur lors du démarrage du programme
-               
+
             }
             var jsonDataState2 = File.ReadAllText(Etat.filePath); //Lis le fichier json
             var stateList2 = JsonConvert.DeserializeObject<List<Etat>>(jsonDataState2) ?? new List<Etat>(); //convertir une chaîne en un objet pour JSON
@@ -97,7 +97,7 @@ namespace Projet
 
             var jsonDataState4 = File.ReadAllText(Log.filePath); //Lis le fichier json
             var stateList4 = JsonConvert.DeserializeObject<List<Log>>(jsonDataState4) ?? new List<Log>(); //convertir une chaîne en un objet pour JSON
-           
+
             stateList4.Add(new Log()
             {
                 Name = stateList2[getStateIndex].Name,
@@ -108,7 +108,7 @@ namespace Projet
                 time = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")
             });
 
-            string strResultJsonState4 = JsonConvert.SerializeObject(stateList4, Formatting.Indented);  //convertir un objet en une chaîne de caractères pour JSON
+            string strResultJsonState4 = JsonConvert.SerializeObject(stateList4, Formatting.Indented);  //convert an object into a string for JSON
             File.WriteAllText(Log.filePath, strResultJsonState4);
         }
         private void CreateDirs(string path, DirectoryInfo[] dirs)

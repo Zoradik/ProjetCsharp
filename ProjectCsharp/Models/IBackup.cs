@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Projet
+namespace test2
 {
-    //une interface de sauvegarde qui contient la définition de la méthode de sauvegarde (interface de fabrique abstraite)
+    //interface de sauvegarde qui contient la définiton de la méthode de sauvegarde (abstract factory interface)
     interface IBackup
     {
         void Sauvegarde(string sourcePATH, string destPATH, bool copyDirs, int getStateIndex, long fileCount, int getIndex, string getName);
