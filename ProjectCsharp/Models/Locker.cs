@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace test2
+namespace ProjetV3
 {
     public static class Locker
     {

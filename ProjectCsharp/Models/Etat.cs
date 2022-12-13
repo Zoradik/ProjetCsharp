@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Projet
+namespace ProjetV3
 {
     class Etat
     {
@@ -17,5 +17,7 @@ namespace Projet
         public string TotalFilesSize { get; set; }
         public string NbFilesLeftToDo { get; set; }
         public string Progression { get; set; }
+        public string TimeToCrypt { get; set; }
+
     }
 }

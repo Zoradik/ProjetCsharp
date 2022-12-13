@@ -7,7 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace test2
+namespace ProjetV3
 {
     /// <summary>
     /// Logique d’interaction pour App.xaml

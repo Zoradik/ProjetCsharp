@@ -7,7 +7,7 @@ using System.Text;
 using System.Linq;
 using System.Security.Cryptography;
 
-namespace test2
+namespace ProjetV3
 {
 
     class DifferentialBackup : IBackup

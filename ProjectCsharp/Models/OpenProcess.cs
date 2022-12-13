@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.ComponentModel;
 using System.Threading;
 
-namespace test2
+namespace ProjetV3
 {
     class OpenProcess
     {

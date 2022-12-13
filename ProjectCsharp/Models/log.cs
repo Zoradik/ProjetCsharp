@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Projet
+namespace ProjetV3
 {
     class Log
     {
@@ -14,6 +14,8 @@ namespace Projet
         public string FileSize { get; set; }
         public string FileTransferTime { get; set; }
         public string time { get; set; }
+        public string TimeToCrypt { get; set; }
+
 
     }
 }

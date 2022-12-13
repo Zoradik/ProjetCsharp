@@ -8,7 +8,7 @@ using System.Windows;
 using System.Diagnostics;
 using System.Threading;
 
-namespace test2
+namespace ProjetV3
 {
     class EasySave
     {

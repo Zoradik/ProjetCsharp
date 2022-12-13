@@ -14,7 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO;
 
-namespace test2
+namespace ProjetV3
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -35,7 +35,7 @@ namespace test2
 
             if (tab1TextBoxName.Text != "" && tab1TextBoxSourcePath.Text != "" && tab1TextBoxTargetPath.Text != "" && tab1SelectType.Text != "")
             {
-                test2.EasySave addWork = new test2.EasySave();
+                ProjetV3.EasySave addWork = new ProjetV3.EasySave();
 
                 int fCount = Directory.GetFiles(tab1TextBoxSourcePath.Text, "*", SearchOption.AllDirectories).Length;
                 long size = addWork.GetFileSizeSumFromDirectory(tab1TextBoxSourcePath.Text);
@@ -79,7 +79,7 @@ namespace test2
         private void tab2ButtonStartSequentialRun_Click(object sender, RoutedEventArgs e)
         {
             pgBarValue = 0;
-            test2.EasySave exeseqWork = new test2.EasySave();
+            ProjetV3.EasySave exeseqWork = new ProjetV3.EasySave();
             try
             {
                 exeseqWork.ExecuteAllWork();
@@ -101,7 +101,7 @@ namespace test2
             pgBarValue = 0;
             if (tab2TextBoxNumber.Text != "")
             {
-                test2.EasySave exeWork = new test2.EasySave();
+                ProjetV3.EasySave exeWork = new ProjetV3.EasySave();
 
                 exeWork.ExecuteWork(tab2TextBoxNumber.Text);
                 pgBarValue += 100;
@@ -291,7 +291,7 @@ namespace test2
 
         private void tab1SaveWork_Loaded(object sender, RoutedEventArgs e)
         {
-            test2.EasySave DisplayWorks = new test2.EasySave();
+            ProjetV3.EasySave DisplayWorks = new ProjetV3.EasySave();
             tab1DataGrid.ItemsSource = DisplayWorks.displayWorks();
         }
 
@@ -304,7 +304,7 @@ namespace test2
 
         private void tab2DataGrid_Loaded(object sender, RoutedEventArgs e)
         {
-            test2.EasySave DisplayWorks = new test2.EasySave();
+            ProjetV3.EasySave DisplayWorks = new ProjetV3.EasySave();
             tab2DataGrid.ItemsSource = DisplayWorks.displayWorks();
         }
 
