@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\ProjectCsharp",
+    "\\ProjectCsharp\\Files",
     "\\ProjectCsharp\\Models",
+    "\\ProjectCsharp\\ViewModels",
     "\\ProjectCsharp\\Views"
   ],
-  "SelectedNode": "\\ProjectCsharp\\Models\\DifferentialBackup.cs",
+  "SelectedNode": "\\ProjectCsharp\\ViewModels\\EasySave.cs",
   "PreviewInSolutionExplorer": false
 }
