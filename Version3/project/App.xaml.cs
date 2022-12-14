@@ -25,7 +25,7 @@ namespace Final
             if (!OpenApp)
             {
                 //L'application est déjà en cours d'exécution ! Quitter l'application
-                MessageBox.Show("App is already running my dude !");
+                MessageBox.Show("EasySave is already running");
                 Application.Current.Shutdown();
             }
             base.OnStartup(e);
