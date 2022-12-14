@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace test2
+namespace Final
 {
     //interface de sauvegarde qui contient la définiton de la méthode de sauvegarde (abstract factory interface)
     interface IBackup

@@ -1,9 +1,9 @@
-﻿<Window x:Class="test2.MainWindow"
+﻿<Window x:Class="Final.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:test2"
+        xmlns:local="clr-namespace:Final"
         mc:Ignorable="d"
         WindowStyle="ThreeDBorderWindow"
         ResizeMode= "NoResize"
@@ -12,7 +12,7 @@
         Width="687" 
         FontFamily="Lato" 
         FontSize="14" 
-        Background="#272537" Icon="C:\Users\jerem\Downloads\Easysave\V2-GUI\Backup\2\project\img\icone.ico">
+        Background="#272537" Icon="C:\Users\jerem\Source\Repos\ProjetCsharpv10\Version3\project\img\icone.ico">
 
 
     <Grid Background="#000B14">

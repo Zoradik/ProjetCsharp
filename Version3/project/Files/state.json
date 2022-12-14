@@ -94,5 +94,17 @@
     "NbFilesLeftToDo": "0",
     "Progression": "100%",
     "TimeToCrypt": "00:00:00.0623003"
+  },
+  {
+    "Name": "azeazesqd",
+    "SourceFilePath": "C:\\Users\\jerem\\OneDrive\\Documents\\Adobe\\test",
+    "TargetFilePath": "C:\\Users\\jerem\\OneDrive\\Documents\\Adobe\\okok",
+    "Time": "14/12/2022 12:58:29",
+    "State": "Active",
+    "TotalFilesToCopy": "3",
+    "TotalFilesSize": "1332405",
+    "NbFilesLeftToDo": "0",
+    "Progression": "100%",
+    "TimeToCrypt": "00:00:01.2730693"
   }
 ]

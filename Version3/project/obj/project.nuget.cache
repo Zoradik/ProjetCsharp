@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CiQ/Ej4eY8+EVE6yT/bBehS7sSnMgpck8f8z3sYQfVqgM1TMGMLC+rBTY7narlMgzCuZxaWmZs4ie3HyXi+u5g==",
+  "dgSpecHash": "Xq2UYhifacNiSgyyMqc1BG8CAkX+FiJZ+h97c50wjdI2lcz3p25RB+hC0h9zbUZmUdsJK7E9BaC4OZgC6QNJEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jerem\\Downloads\\Easysave\\V2-GUI\\Backup\\2\\project\\Final.csproj",
+  "projectFilePath": "C:\\Users\\jerem\\Source\\Repos\\ProjetCsharpv10\\Version3\\project\\Final.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jerem\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\jerem\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

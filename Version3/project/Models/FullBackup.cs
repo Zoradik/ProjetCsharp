@@ -9,7 +9,7 @@ using System.Security.Cryptography;
 using System.Windows;
 using System.Threading;
 
-namespace test2
+namespace Final
 {
     public class FullBackup : IBackup
     {

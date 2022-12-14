@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jerem\\Downloads\\Easysave\\V2-GUI\\Backup\\2\\project\\Final.csproj": {}
+    "C:\\Users\\jerem\\Source\\Repos\\ProjetCsharpv10\\Version3\\project\\Final.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jerem\\Downloads\\Easysave\\V2-GUI\\Backup\\2\\project\\Final.csproj": {
+    "C:\\Users\\jerem\\Source\\Repos\\ProjetCsharpv10\\Version3\\project\\Final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jerem\\Downloads\\Easysave\\V2-GUI\\Backup\\2\\project\\Final.csproj",
+        "projectUniqueName": "C:\\Users\\jerem\\Source\\Repos\\ProjetCsharpv10\\Version3\\project\\Final.csproj",
         "projectName": "Final",
-        "projectPath": "C:\\Users\\jerem\\Downloads\\Easysave\\V2-GUI\\Backup\\2\\project\\Final.csproj",
+        "projectPath": "C:\\Users\\jerem\\Source\\Repos\\ProjetCsharpv10\\Version3\\project\\Final.csproj",
         "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jerem\\Downloads\\Easysave\\V2-GUI\\Backup\\2\\project\\obj\\",
+        "outputPath": "C:\\Users\\jerem\\Source\\Repos\\ProjetCsharpv10\\Version3\\project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

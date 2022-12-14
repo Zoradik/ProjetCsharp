@@ -3157,5 +3157,32 @@
     "FileTransferTime": "00:00:00.02",
     "time": "14/12/2022 12:35:09",
     "TimeToCrypt": "00:00:00.0623003"
+  },
+  {
+    "Name": "azeazesqd",
+    "FileSource": "C:\\Users\\jerem\\OneDrive\\Documents\\Adobe\\test",
+    "FileTarget": "C:\\Users\\jerem\\OneDrive\\Documents\\Adobe\\okok",
+    "FileSize": "1332405",
+    "FileTransferTime": "00:00:00.42",
+    "time": "14/12/2022 12:58:29",
+    "TimeToCrypt": "00:00:00.4210141"
+  },
+  {
+    "Name": "azeazesqd",
+    "FileSource": "C:\\Users\\jerem\\OneDrive\\Documents\\Adobe\\test",
+    "FileTarget": "C:\\Users\\jerem\\OneDrive\\Documents\\Adobe\\okok",
+    "FileSize": "1332405",
+    "FileTransferTime": "00:00:00.42",
+    "time": "14/12/2022 12:58:29",
+    "TimeToCrypt": "00:00:00.8470417"
+  },
+  {
+    "Name": "azeazesqd",
+    "FileSource": "C:\\Users\\jerem\\OneDrive\\Documents\\Adobe\\test",
+    "FileTarget": "C:\\Users\\jerem\\OneDrive\\Documents\\Adobe\\okok",
+    "FileSize": "1332405",
+    "FileTransferTime": "00:00:00.42",
+    "time": "14/12/2022 12:58:29",
+    "TimeToCrypt": "00:00:01.2730693"
   }
 ]
