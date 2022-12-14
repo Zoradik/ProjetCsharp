@@ -11,7 +11,7 @@ namespace Final
         public string dest;
         static private char[] passcode
         {
-            get { return "GGEZ".ToCharArray(); }
+            get { return "CDMFRANCEWIN".ToCharArray(); }
         }
         public void Cryptage(String sourcePATH,String destPATH)
         {
