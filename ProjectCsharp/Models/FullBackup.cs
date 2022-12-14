@@ -51,18 +51,7 @@ namespace ProjetV3
             var Listt = JsonConvert.DeserializeObject<List<Settings>>(jsonn) ?? new List<Settings>();
             string[] extensionss = new string[] { Listt[0].extensionsAccepted };
             extensionss = extensionss[0].Split(',', ' ');
-            //for (int j = 0; j < files2.Count; j++)
-            // {
-            //  if (extensionss.Contains(files2[j].Extension))
-            // {
-            //    FileInfo tompon = files2[j];
-            //   files2.RemoveAt(j);
-            //  files2.Insert(0, tompon);
-            // }
-            //MessageBox.Show(files[i].Extension);
-
-            //}
-            //files = files2.ToArray();
+            
             var i = 0;
 
             var json = File.ReadAllText(Settings.filePath);
@@ -114,7 +103,7 @@ namespace ProjetV3
                 i++;
                 lock (Locker.Read_State)
                 {
-                    ///////////////////////////////////////
+                    
 
 
                     var filesLeftToDo = Directory.GetFiles(sourcePATH, "*", SearchOption.AllDirectories).Length - i;
