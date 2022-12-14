@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace test2
+{
+    class Work
+    {
+        public static string filePath = @"..\..\..\Files\work.json";
+        public string name { get; set; }
+        public string repS { get; set; }
+        public string repC { get; set; }
+        public string type { get; set; }
+    }
+}

@@ -1,0 +1,635 @@
+﻿<Window x:Class="test2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test2"
+        mc:Ignorable="d"
+        WindowStyle="ThreeDBorderWindow"
+        ResizeMode= "NoResize"
+        Title="MainWindow" 
+        Height="450" 
+        Width="687" 
+        FontFamily="Lato" 
+        FontSize="14" 
+        Background="#272537" Icon="C:\Users\jerem\Downloads\Easysave\V2-GUI\Backup\2\project\img\icone.ico">
+
+
+    <Grid Background="#000B14">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="214*"/>
+            <ColumnDefinition Width="15*"/>
+        </Grid.ColumnDefinitions>
+        <!--3 tabs, respectivly for the setings, adding, or running a save work-->
+        <TabControl HorizontalAlignment="Left" Height="409" VerticalAlignment="Center" Width="687" Background="{x:Null}" Grid.ColumnSpan="2">
+            <!--tab1, Add Save Work-->
+            <TabItem Name="tab1SaveWork" 
+                     Header="Add Save Work" 
+                     Height="20" 
+                     Width="228" 
+                     Tag="AddSaveWorkTab" 
+                     BorderBrush="#272537" 
+                     Foreground="#272537" 
+                     Background="#FFC2E1FF"
+                     Loaded="tab1SaveWork_Loaded" 
+                     Margin="-1,0,1,0">
+
+                <Grid Background="#272537">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="206*"/>
+                        <ColumnDefinition Width="82*"/>
+                        <ColumnDefinition Width="45*"/>
+                        <ColumnDefinition Width="28*"/>
+                        <ColumnDefinition Width="59*"/>
+                        <ColumnDefinition Width="200*"/>
+                        <ColumnDefinition Width="61*"/>
+                    </Grid.ColumnDefinitions>
+                    <!-- Branding -->
+                    <Label 
+                        Name="tab1LabelNameApp" 
+                        Content="EasySave" 
+                        HorizontalAlignment="Left" 
+                        Margin="10,10,0,0" 
+                        VerticalAlignment="Top" 
+                        Foreground="White" 
+                        FontFamily="Arial Black" 
+                        FontSize="36" 
+                        Grid.ColumnSpan="2"/>
+                    <!-- Save work name -->
+                    <Label 
+                        Name="tab1LabelName" 
+                        Content="Save work name :" 
+                        HorizontalAlignment="Left" 
+                        Margin="58,28,0,0" 
+                        VerticalAlignment="Top" 
+                        Foreground="White" 
+                        FontFamily="Cascadia Code" 
+                        Grid.Column="1" 
+                        Grid.ColumnSpan="4"/>
+                    <TextBox 
+                        Name="tab1TextBoxName" 
+                        HorizontalAlignment="Left" 
+                        Margin="44,32,0,0" 
+                        Text="" TextWrapping="Wrap" 
+                        VerticalAlignment="Top" 
+                        Width="129" BorderBrush="{x:Null}" 
+                        Grid.Column="4" 
+                        Grid.ColumnSpan="2"/>
+                    <!-- source path-->
+                    <Label 
+                        Name="tab1LabelSourcePath" 
+                        Content="Source path :" 
+                        HorizontalAlignment="Left" 
+                        Margin="24,64,0,0" 
+                        VerticalAlignment="Top" 
+                        Foreground="White" 
+                        FontFamily="Cascadia Code"/>
+                    <TextBox 
+                        Name="tab1TextBoxSourcePath" 
+                        Margin="29,90,0,0" Text="" 
+                        TextWrapping="Wrap" 
+                        VerticalAlignment="Top" 
+                        IsEnabled="False" 
+                        Grid.ColumnSpan="2"/>
+                    <!-- target path-->
+                    <Label 
+                        Name="tab1LabelTargetPath" 
+                        Content="Target path :" 
+                        HorizontalAlignment="Left" 
+                        Margin="7,64,0,0" 
+                        VerticalAlignment="Top" 
+                        Foreground="White" 
+                        FontFamily="Cascadia Code" 
+                        Grid.Column="3" 
+                        Grid.ColumnSpan="3"/>
+                    <TextBox 
+                        Name="tab1TextBoxTargetPath" 
+                        HorizontalAlignment="Left" 
+                        Margin="12,90,0,0" Text="" 
+                        TextWrapping="Wrap" 
+                        VerticalAlignment="Top" 
+                        Width="282" 
+                        IsEnabled="False" 
+                        Grid.Column="3" 
+                        Grid.ColumnSpan="4"/>
+                    <!-- save work type -->
+                    <Label 
+                        Name="tab1LabelType" 
+                        Content="Save work type :" 
+                        HorizontalAlignment="Left" 
+                        Margin="31,121,0,0" 
+                        VerticalAlignment="Top" 
+                        Foreground="White"  
+                        FontFamily="Cascadia Code"/>
+                    <ComboBox 
+                        Name="tab1SelectType" 
+                        HorizontalAlignment="Left" 
+                        Margin="183,124,0,0" 
+                        VerticalAlignment="Top" 
+                        Width="120" 
+                        SelectedIndex="0" 
+                        Grid.ColumnSpan="3">
+                        <ComboBoxItem 
+                            Name="tab1SelectTypeFull" 
+                            Content="Full" 
+                            Height="20" 
+                            Width="100"/>
+                        <ComboBoxItem 
+                            Name="tab1SelectTypeDifferential" 
+                            Content="Differential" 
+                            Height="20"
+                            Width="100"/>
+                    </ComboBox>
+                    <!-- Choose if encrypted -->
+                    <Label 
+                        Name="tab1LabelCrypted" 
+                        Content="Files encrypted :" 
+                        HorizontalAlignment="Left" 
+                        Margin="11,121,0,0" 
+                        VerticalAlignment="Top" 
+                        Foreground="White"  
+                        FontFamily="Cascadia Code" 
+                        Grid.Column="3" 
+                        Grid.ColumnSpan="3"/>
+                    <CheckBox 
+                        Name="tab1CheckCrypted"
+                        Content="Crypted" 
+                        HorizontalAlignment="Left"
+                        Margin="88,127,0,0"
+                        VerticalAlignment="Top" 
+                        Foreground="White" 
+                        Grid.Column="5"/>
+                    <!-- Button add -->
+                    <Button 
+                        Name="tab1ButtonAdd" 
+                        Content="Add" 
+                        HorizontalAlignment="Left" 
+                        VerticalAlignment="Top" Width="70" 
+                        BorderBrush="LightGreen" 
+                        Background="#22202F" 
+                        Foreground="LightGreen" 
+                        FontFamily="Cascadia Code" 
+                        Height="32" 
+                        Click="tab1ButtonAdd_Click" 
+                        Grid.Column="2" 
+                        Margin="10,163,0,0" 
+                        Grid.ColumnSpan="3">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    <!-- DataGrid to see data we can get from JSON -->
+                    <DataGrid 
+                        Name="tab1DataGrid" 
+                        Margin="10,203,0,0" 
+                        BorderThickness="1,0,1,1" 
+                        AutomationProperties.Name="tab1DataGrid" 
+                        Height="167" 
+                        VerticalAlignment="Top" 
+                        HorizontalAlignment="Left" 
+                        Width="661" 
+                        LoadingRow="tab1DataGrid_LoadingRow" 
+                        IsEnabled="False" Grid.ColumnSpan="7"   />
+                    <Button 
+                        Click="SourcePath_Clicked" 
+                        Content="..." 
+                        HorizontalAlignment="Left" 
+                        Height="17" 
+                        Margin="1,91,0,0"
+                        VerticalAlignment="Top" 
+                        Width="28" 
+                        Grid.Column="2"/>
+                    <Button 
+                        Click="TargetPATH_Clicked" 
+                        Content="..." 
+                        HorizontalAlignment="Left" 
+                        Height="17" 
+                        Margin="8,91,0,0" 
+                        VerticalAlignment="Top" 
+                        Width="28" 
+                        Grid.Column="6"/>
+                    <TextBlock 
+                        x:Name="tab2TextBlockDescriptiond" 
+                        HorizontalAlignment="Left" 
+                        Height="21" 
+                        Margin="86,49,0,0" 
+                        TextWrapping="Wrap" 
+                        VerticalAlignment="Top" 
+                        Width="140" 
+                        Foreground="White" 
+                        TextAlignment="Center" 
+                        FontSize="14" 
+                        FontFamily="Lato Light" 
+                        Grid.ColumnSpan="2">
+						<Run Language="fr-fr" Text="Make it quick !"/>
+                    </TextBlock>
+                </Grid>
+            </TabItem>
+
+            <!-- tab2, Run Save Work -->
+            <TabItem 
+                Name="tab2RunWork" 
+                Header="Run Save Work" 
+                Tag="RunSaveWorkTab" 
+                Height="20" Width="228" 
+                BorderBrush="#000B14" 
+                Foreground="#FF000B14" 
+                Background="#FFC2E1FF">
+                <Grid Background="#272537">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="18*"/>
+                        <ColumnDefinition Width="15*"/>
+                        <ColumnDefinition Width="135*"/>
+                        <ColumnDefinition Width="19*"/>
+                        <ColumnDefinition Width="433*"/>
+                        <ColumnDefinition Width="61*"/>
+                    </Grid.ColumnDefinitions>
+                    <!-- Branding -->
+                    <Label 
+                        Name="tab2LabelNameApp" 
+                        Content="EasySave" 
+                        HorizontalAlignment="Left" 
+                        Margin="10,10,0,0" 
+                        VerticalAlignment="Top" 
+                        Foreground="White" 
+                        FontFamily="Arial Black" 
+                        FontSize="36" 
+                        Grid.ColumnSpan="5"/>
+                    <TextBlock 
+                        x:Name="tab2TextBlockDescription" 
+                        HorizontalAlignment="Left" 
+                        Height="15" 
+                        Margin="74,49,0,0" 
+                        TextWrapping="Wrap" 
+                        VerticalAlignment="Top" 
+                        Width="97" 
+                        Foreground="White" 
+                        TextAlignment="Center" 
+                        FontSize="14" 
+                        FontFamily="Lato Light" 
+                        Grid.ColumnSpan="3" 
+                        Grid.Column="2">
+                        <Run Language="fr-fr" Text="Make it quick !"/>
+                    </TextBlock>
+                    <!-- Button to run a sequential save = all the save works one after the other-->
+                    <Button 
+                        Name="tab2ButtonStartSequentialRun" 
+                        Content="Start Sequential Run" 
+                        HorizontalAlignment="Left" 
+                        Margin="40,83,0,0" 
+                        VerticalAlignment="Top" 
+                        Width="230" 
+                        BorderBrush="White" 
+                        Background="#22202F" 
+                        Foreground="White" 
+                        FontFamily="Cascadia Code" 
+                        Height="32" 
+                        Click="tab2ButtonStartSequentialRun_Click"
+                        Grid.ColumnSpan="3"
+                        Grid.Column="2">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    <!-- Button and textBox to run only one save work -->
+                    <TextBox 
+                        Name="tab2TextBoxNumber" 
+                        HorizontalAlignment="Left" 
+                        Margin="259,59,0,0" 
+                        Text="Number" 
+                        TextWrapping="Wrap" 
+                        VerticalAlignment="Top" 
+                        Width="120" 
+                        TextAlignment="Center" 
+                        Grid.Column="4"/>
+                    <Button 
+                        Name="tab2ButtonStartSingleRun" 
+                        Content="Start Single Run" 
+                        HorizontalAlignment="Left"
+                        Margin="213,83,0,0" 
+                        VerticalAlignment="Top"
+                        Width="211" 
+                        BorderBrush="White"
+                        Background="#22202F"
+                        Foreground="White" 
+                        FontFamily="Cascadia Code" 
+                        Height="32"
+                        Click="tab2ButtonStartSingleRun_Click"
+                        Grid.Column="4">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    <!-- Progress Bar -->
+                    <ProgressBar 
+                        Name="tab2ProgessBar" 
+                        HorizontalAlignment="Left" 
+                        Height="9" 
+                        Margin="9,153,0,0" 
+                        VerticalAlignment="Top" 
+                        Width="578" 
+                        Grid.ColumnSpan="3" 
+                        Grid.Column="2"/>
+                    <Label 
+                        Name="tab2LabelProgessBar" 
+                        Content="Progress" 
+                        HorizontalAlignment="Left"
+                        Margin="3,121,0,0" 
+                        VerticalAlignment="Top"
+                        Width="120"
+                        Foreground="white" 
+                        FontFamily="Cascadia Code"
+                        FontSize="18"
+                        Grid.Column="2"/>
+                    <!-- Pause & Stop button -->
+                    <Button 
+                        Name="tab2ButtonPause" 
+                        Content="Pause" 
+                        HorizontalAlignment="Left"
+                        Margin="114,170,0,0" 
+                        VerticalAlignment="Top" 
+                        Width="120"
+                        BorderBrush="#EE8F2A" 
+                        Background="#22202F" 
+                        FontFamily="Cascadia Code"
+                        Foreground="#EE8F2A" 
+                        Height="32" 
+                        Click="tab2ButtonPause_Click" 
+                        Grid.Column="2" Grid.ColumnSpan="3">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    <Button 
+                        Name="tab2ButtonStop"
+                        Content="Stop" 
+                        HorizontalAlignment="Left" 
+                        Margin="109,170,0,0" 
+                        VerticalAlignment="Top" 
+                        Width="120"
+                        BorderBrush="red"
+                        Background="#22202F"
+                        FontFamily="Cascadia Code" 
+                        Foreground="red" 
+                        Height="32"
+                        Click="tab2ButtonStop_Click" 
+                        Grid.Column="4">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                        <Button.FocusVisualStyle>
+                            <Style/>
+                        </Button.FocusVisualStyle>
+                    </Button>
+                    <Button 
+                        x:Name="tab2ButtonResume"
+                        Content="Resume"
+                        HorizontalAlignment="Left"
+                        Margin="254,170,0,0" 
+                        VerticalAlignment="Top" 
+                        Width="120"
+                        BorderBrush="lightgreen"
+                        Background="#22202F" 
+                        FontFamily="Cascadia Code"
+                        Foreground="LightGreen" 
+                        Height="32" 
+                        Click="tab2ButtonResume_Click" 
+                        Grid.Column="4">
+                        <Button.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    <!-- DataGrid to see data we can get from JSON -->
+                    <DataGrid 
+                        Name="tab2DataGrid" 
+                        Margin="10,213,0,0" 
+                        BorderThickness="1,0,1,1" 
+                        AutomationProperties.Name="DataGridViewTab2Add" 
+                        Height="157" VerticalAlignment="Top" 
+                        HorizontalAlignment="Left" 
+                        Width="661" 
+                        Loaded="tab2DataGrid_Loaded" 
+                        LoadingRow="tab2DataGrid_LoadingRow" 
+                        Grid.ColumnSpan="6" />
+                    <TextBlock 
+                        x:Name="tab2TextBlock_OR"
+                        HorizontalAlignment="Left"
+                        Height="15" 
+                        Margin="116,91,0,0" 
+                        TextWrapping="Wrap" 
+                        VerticalAlignment="Top" 
+                        Width="97" 
+                        TextAlignment="Center"
+                        FontSize="14"
+                        Foreground="White" 
+                        FontFamily="Cascadia Code"
+                        Grid.Column="4">
+                        <Run Language="fr-fr" Text="OR"/>
+                    </TextBlock>
+
+                </Grid>
+            </TabItem>
+
+            <!--tab3, Settings-->
+            <TabItem 
+                Name="tab3Settings" 
+                Header="Settings" 
+                Tag="SettingsTab" 
+                Height="20" 
+                Width="227"
+                BorderBrush="#000B14" 
+                Foreground="#FF000B14"
+                Background="#FFC2E1FF">
+                <Grid Background="#272537">
+                    <!-- Branding -->
+                    <Label 
+                        Name="tab3LabelNameApp" 
+                        Content="EasySave" 
+                        HorizontalAlignment="Left" 
+                        Margin="10,10,0,0" 
+                        VerticalAlignment="Top" 
+                        Foreground="White"
+                        FontFamily="Arial Black" 
+                        FontSize="36"/>
+                    <TextBlock 
+                        x:Name="tab3TextBlockDescription"
+                        HorizontalAlignment="Left"
+                        Height="15" 
+                        Margin="109,49,0,0" 
+                        TextWrapping="Wrap" 
+                        VerticalAlignment="Top" 
+                        Width="94" 
+                        Foreground="White" 
+                        TextAlignment="Center" 
+                        FontSize="14" 
+                        FontFamily="Lato Light">
+                        <Run Language="fr-fr" Text="Make it quick !"/>
+                    </TextBlock>
+
+                    <!-- Language -->
+                    <Button 
+                        Name="tab3ButtonFrench" 
+                        Content="French" 
+                        HorizontalAlignment="Left"
+                        Margin="220,332,0,0" 
+                        VerticalAlignment="Top"
+                        Width="120" 
+                        BorderBrush="lightblue"
+                        Background="#22202F" 
+                        FontFamily="Cascadia Code" 
+                        Foreground="lightblue"
+                        Height="32" 
+                        Click="tab3ButtonFrench_Click">
+                        <Button.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    <Button 
+                        Name="tab3ButtonEnglish"
+                        Content="English" 
+                        HorizontalAlignment="Left" 
+                        Margin="352,332,0,0" 
+                        VerticalAlignment="Top"
+                        Width="120"
+                        BorderBrush="red"
+                        Background="#22202F" 
+                        FontFamily="Cascadia Code"
+                        Foreground="red" 
+                        Height="32"
+                        Click="tab3ButtonEnglish_Click">
+                        <Button.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    <!-- Buttons respectivly to open the user guide, config files and logs-->
+                    <Button 
+                        Name="tab3ButtonUserGuide"
+                        Content="Open User Guide" 
+                        HorizontalAlignment="Left"
+                        Margin="52,112,0,0" 
+                        VerticalAlignment="Top" 
+                        Width="270" 
+                        BorderBrush="White" 
+                        Background="#22202F" 
+                        Foreground="White" 
+                        FontFamily="Cascadia Code" 
+                        Height="32" 
+                        Click="tab3ButtonUserGuide_Click">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    <Button 
+                        Name="tab3ButtonOpenConfig"
+                        Content="Open Config"
+                        HorizontalAlignment="Left"
+                        Margin="366,179,0,0" 
+                        VerticalAlignment="Top"
+                        Width="270" 
+                        BorderBrush="White"
+                        Background="#22202F" 
+                        Foreground="White" 
+                        FontFamily="Cascadia Code"
+                        Height="32" 
+                        Click="tab3ButtonOpenConfig_Click">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    <Button 
+                        Name="tab3ButtonOpenLogs" 
+                        Content="Open Logs" 
+                        HorizontalAlignment="Left" 
+                        Margin="366,112,0,0" 
+                        VerticalAlignment="Top"
+                        Width="270" 
+                        BorderBrush="White" 
+                        Background="#22202F" 
+                        Foreground="White" 
+                        FontFamily="Cascadia Code" 
+                        Height="32" 
+                        Click="tab3ButtonOpenLogs_Click">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    <Button 
+                        Name="tab3ButtonConfigureBuisnessSoftware"
+                        Content="Configure Buisness Software"
+                        HorizontalAlignment="Left" 
+                        Margin="52,179,0,0"
+                        VerticalAlignment="Top"
+                        Width="270" 
+                        BorderBrush="White" 
+                        Background="#22202F"
+                        Foreground="White" 
+                        FontFamily="Cascadia Code"
+                        Height="32" 
+                        RenderTransformOrigin="0.5,0.5" Click="tab3ButtonConfigureBuisnessSoftware_Click">
+                        <Button.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    <Button 
+                        Name="tab3ButtonConfigureTypeFilesToEncrypt"
+                        Content="Configure Type of Files to Encrypt" 
+                        HorizontalAlignment="Center" 
+                        Margin="0,242,0,0" 
+                        VerticalAlignment="Top" 
+                        Width="577" 
+                        BorderBrush="White"
+                        Background="#22202F" 
+                        Foreground="White" 
+                        FontFamily="Cascadia Code" 
+                        Height="32"
+                        Click="tab3ButtonConfigureTypeFilesToEncrypt_Click">
+                        <Button.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="5"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    <TextBlock 
+                        x:Name="tab3TextBlockLanguage" 
+                        HorizontalAlignment="Center"
+                        Height="20"
+                        Margin="0,306,0,0" 
+                        TextWrapping="Wrap"
+                        VerticalAlignment="Top" 
+                        Width="94" 
+                        Foreground="White"
+                        TextAlignment="Center" 
+                        FontSize="14" 
+                        FontFamily="Lato Light">
+                        <Run Text="Langues"/><Run Language="fr-fr" Text=" :"/>
+                    </TextBlock>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <!-- Button to close the window -->
+    </Grid>
+</Window>
