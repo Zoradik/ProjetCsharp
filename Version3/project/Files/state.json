@@ -1,0 +1,110 @@
+[
+  {
+    "Name": "pupupute",
+    "SourceFilePath": "C:\\Users\\lasse\\OneDrive\\Bureau\\tttt",
+    "TargetFilePath": "C:\\Users\\lasse\\OneDrive\\Bureau\\testicule",
+    "Time": "14/12/2022 10:46:31",
+    "State": "Active",
+    "TotalFilesToCopy": "5",
+    "TotalFilesSize": "2387405",
+    "NbFilesLeftToDo": "0",
+    "Progression": "100%",
+    "TimeToCrypt": "00:00:00.0359330"
+  },
+  {
+    "Name": "pupupupute",
+    "SourceFilePath": "C:\\Users\\lasse\\OneDrive\\Bureau\\testicule",
+    "TargetFilePath": "C:\\Users\\lasse\\OneDrive\\Bureau\\final",
+    "Time": "14/12/2022 11:01:23",
+    "State": "Active",
+    "TotalFilesToCopy": "3",
+    "TotalFilesSize": "4439563",
+    "NbFilesLeftToDo": "0",
+    "Progression": "100%",
+    "TimeToCrypt": "00:00:00.0326897"
+  },
+  {
+    "Name": "aze",
+    "SourceFilePath": "C:\\Users\\jerem\\Desktop\\CDM\\test\\Bloc web",
+    "TargetFilePath": "C:\\Users\\jerem\\Desktop\\Adobe Premiere Pro 2020",
+    "Time": "14/12/2022 11:24:10",
+    "State": "Active",
+    "TotalFilesToCopy": "0",
+    "TotalFilesSize": "0",
+    "NbFilesLeftToDo": "0",
+    "Progression": "0%",
+    "TimeToCrypt": null
+  },
+  {
+    "Name": "qsdazersdf",
+    "SourceFilePath": "C:\\Users\\jerem\\OneDrive\\Images\\Nouveau dossier",
+    "TargetFilePath": "C:\\Users\\jerem\\Desktop\\Adobe Premiere Pro 2020",
+    "Time": "14/12/2022 11:26:52",
+    "State": "Active",
+    "TotalFilesToCopy": "2",
+    "TotalFilesSize": "65066",
+    "NbFilesLeftToDo": "0",
+    "Progression": "100%",
+    "TimeToCrypt": "00:00:00.0380693"
+  },
+  {
+    "Name": "tetsst",
+    "SourceFilePath": "C:\\Users\\jerem\\Desktop\\Collection NFT\\Chewy Penguin\\images",
+    "TargetFilePath": "C:\\Users\\jerem\\Desktop\\RuruERPENESTo",
+    "Time": "14/12/2022 12:26:42",
+    "State": "Active",
+    "TotalFilesToCopy": "4444",
+    "TotalFilesSize": "2326128481",
+    "NbFilesLeftToDo": "4114",
+    "Progression": "8%",
+    "TimeToCrypt": null
+  },
+  {
+    "Name": "totir",
+    "SourceFilePath": "C:\\Users\\jerem\\OneDrive\\Documents\\Adobe\\test",
+    "TargetFilePath": "C:\\Users\\jerem\\OneDrive\\Documents\\Adobe\\okok",
+    "Time": "14/12/2022 12:32:00",
+    "State": "Active",
+    "TotalFilesToCopy": "2",
+    "TotalFilesSize": "84667",
+    "NbFilesLeftToDo": "0",
+    "Progression": "100%",
+    "TimeToCrypt": "00:00:00.0535022"
+  },
+  {
+    "Name": "uyes",
+    "SourceFilePath": "C:\\Users\\jerem\\OneDrive\\Documents\\Adobe\\test",
+    "TargetFilePath": "C:\\Users\\jerem\\OneDrive\\Documents\\Adobe\\okok",
+    "Time": "14/12/2022 12:34:09",
+    "State": "Active",
+    "TotalFilesToCopy": "2",
+    "TotalFilesSize": "84667",
+    "NbFilesLeftToDo": "0",
+    "Progression": "100%",
+    "TimeToCrypt": "00:00:00.0483425"
+  },
+  {
+    "Name": "okijuh",
+    "SourceFilePath": "C:\\Users\\jerem\\OneDrive\\Documents\\Adobe\\okok",
+    "TargetFilePath": "C:\\Users\\jerem\\OneDrive\\Documents\\Adobe\\decrypt",
+    "Time": "14/12/2022 12:35:09",
+    "State": "Active",
+    "TotalFilesToCopy": "3",
+    "TotalFilesSize": "1332405",
+    "NbFilesLeftToDo": "0",
+    "Progression": "100%",
+    "TimeToCrypt": "00:00:00.0623003"
+  },
+  {
+    "Name": "azeazesqd",
+    "SourceFilePath": "C:\\Users\\jerem\\OneDrive\\Documents\\Adobe\\test",
+    "TargetFilePath": "C:\\Users\\jerem\\OneDrive\\Documents\\Adobe\\okok",
+    "Time": "14/12/2022 12:58:29",
+    "State": "Active",
+    "TotalFilesToCopy": "3",
+    "TotalFilesSize": "1332405",
+    "NbFilesLeftToDo": "0",
+    "Progression": "100%",
+    "TimeToCrypt": "00:00:01.2730693"
+  }
+]

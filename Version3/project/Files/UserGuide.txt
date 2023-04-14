@@ -1,0 +1,59 @@
+
+        Prerequisites | Prérequis
+
+This application will need the following requirement to run smoothly :
+
+Windows 10 or more recent
+4go of RAM or more
+
+Cette application aura besoin de la condition suivante pour fonctionner correctement :
+
+Windows 10 ou plus récent
+4go de RAM ou plus
+
+        User Guide | Mode d'emploi
+
+    Add a backup work
+
+To create a backup work, go on the page "Add Save Work": then the program will ask you severals informations :
+
+a name to identify your Save
+a source directory, where the program will copy the files from
+a target directory, where the program will paste the file in
+a type of save, Full or differential
+select if the fill will be crypted
+
+P.S. : Full backup: consists of copying all the files and folders of a system, storing all the data. Differential backup: only files modified since the last full backup are backed up.
+
+Once the type is specified : the backup work begin. The app show you the progression of the work.
+
+    Execute a backup work
+
+To execute a backup work, go on the page "Run Save Work".
+You will choose the type of save you want to make.
+For the Sequential Run, the program will run all the saves.
+For the Single Run, the program will ask you the index among the table that you want to make. 
+
+You will be able to see the progression of the save.
+    Ajouter un travail de sauvegarde
+
+Pour créer une œuvre de sauvegarde, rendez-vous sur la page "Ajouter une œuvre de sauvegarde" : le programme vous demandera alors plusieurs informations :
+
+un nom pour identifier votre sauvegarde
+un répertoire source, où le programme copiera les fichiers à partir de
+un répertoire cible, où le programme collera le fichier dans
+un type de sauvegarde, Complète ou différentielle
+sélectionnez si le remplissage sera crypté
+
+PS : Sauvegarde complète : consiste à copier tous les fichiers et dossiers d'un système, en stockant toutes les données. Sauvegarde différentielle : seuls les fichiers modifiés depuis la dernière sauvegarde complète sont sauvegardés.
+
+Une fois le type spécifié : le travail de sauvegarde commence. L'application vous montre la progression du travail.
+
+    Exécuter un travail de sauvegarde
+
+Pour exécuter un travail de sauvegarde, rendez-vous sur la page "Exécuter un travail de sauvegarde".
+Vous choisirez le type de sauvegarde que vous souhaitez effectuer.
+Pour le Lancement séquentiel, le programme exécutera toutes les sauvegardes.
+Pour le Lancement Unique, le programme vous demandera l'index parmi la table que vous voulez faire.
+
+Vous pourrez voir la progression de la sauvegarde.
