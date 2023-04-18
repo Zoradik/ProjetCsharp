@@ -1,20 +1,65 @@
 [
   {
-    "Name": "azeqsd",
-    "FileSource": "C:\\Dossier CESI\\robomind",
-    "FileTarget": "C:\\Dossier CESI\\A2",
-    "FileSize": "9360",
-    "FileTransferTime": "00:00:00.00",
-    "time": "13/12/2022 21:56:39",
-    "TimeToCrypt": "00:00:00"
+    "Name": "save1",
+    "FileSource": "C:\\Users\\lasse\\Desktop\\test",
+    "FileTarget": "C:\\Users\\lasse\\Desktop\\test2",
+    "FileSize": "28",
+    "FileTransferTime": "00:00:16.54",
+    "time": "18/04/2023 19:32:42",
+    "TimeToCrypt": "00:00:16.5359227"
   },
   {
-    "Name": "azeqsd",
-    "FileSource": "C:\\Dossier CESI\\robomind",
-    "FileTarget": "C:\\Dossier CESI\\A2",
-    "FileSize": "9360",
+    "Name": "save2",
+    "FileSource": "C:\\Users\\lasse\\Desktop\\test",
+    "FileTarget": "C:\\Users\\lasse\\Desktop\\test2",
+    "FileSize": "28",
+    "FileTransferTime": "00:00:00.01",
+    "time": "18/04/2023 19:33:32",
+    "TimeToCrypt": "00:00:00.0062040"
+  },
+  {
+    "Name": "sd",
+    "FileSource": "C:\\Users\\lasse\\Desktop\\test",
+    "FileTarget": "C:\\Users\\lasse\\Desktop\\test2",
+    "FileSize": "0",
     "FileTransferTime": "00:00:00.00",
-    "time": "13/12/2022 21:56:39",
-    "TimeToCrypt": "00:00:00"
+    "time": "18/04/2023 19:35:01",
+    "TimeToCrypt": null
+  },
+  {
+    "Name": "sds",
+    "FileSource": "C:\\Users\\lasse\\Desktop\\test",
+    "FileTarget": "C:\\Users\\lasse\\Desktop\\test2",
+    "FileSize": "90271",
+    "FileTransferTime": "00:00:00.01",
+    "time": "18/04/2023 19:36:53",
+    "TimeToCrypt": "00:00:00.0091061"
+  },
+  {
+    "Name": "sds",
+    "FileSource": "C:\\Users\\lasse\\Desktop\\test",
+    "FileTarget": "C:\\Users\\lasse\\Desktop\\test2",
+    "FileSize": "90271",
+    "FileTransferTime": "00:00:00.01",
+    "time": "18/04/2023 19:36:53",
+    "TimeToCrypt": "00:00:00.0215294"
+  },
+  {
+    "Name": "ghdf",
+    "FileSource": "C:\\Users\\lasse\\Desktop\\test2",
+    "FileTarget": "C:\\Users\\lasse\\Desktop\\test3",
+    "FileSize": "90271",
+    "FileTransferTime": "00:00:00.00",
+    "time": "18/04/2023 19:37:51",
+    "TimeToCrypt": "00:00:00.0061400"
+  },
+  {
+    "Name": "ghdf",
+    "FileSource": "C:\\Users\\lasse\\Desktop\\test2",
+    "FileTarget": "C:\\Users\\lasse\\Desktop\\test3",
+    "FileSize": "90271",
+    "FileTransferTime": "00:00:00.00",
+    "time": "18/04/2023 19:37:51",
+    "TimeToCrypt": "00:00:00.0156186"
   }
 ]

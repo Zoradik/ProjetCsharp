@@ -1,12 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\ProjectCsharp",
-    "\\ProjectCsharp\\Files",
-    "\\ProjectCsharp\\Models",
-    "\\ProjectCsharp\\ViewModels",
-    "\\ProjectCsharp\\Views"
+    ""
   ],
-  "SelectedNode": "\\ProjectCsharp\\ProjetV3.csproj",
+  "SelectedNode": "\\ProjetV3.sln",
   "PreviewInSolutionExplorer": false
 }

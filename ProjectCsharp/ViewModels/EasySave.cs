@@ -12,7 +12,7 @@ namespace ProjetV3
 {
     class EasySave
     {
-        //initialiser les threads
+        //initialiser les threads ici
         Thread threadA, threadB;
 
 
